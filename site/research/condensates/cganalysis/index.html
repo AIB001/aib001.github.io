@@ -12,13 +12,13 @@
         <meta name="author" content="A.I.B.">
       
       
-        <link rel="canonical" href="https://aib001.github.io/research/condensates/FUS_PLD_Droplet/">
+        <link rel="canonical" href="https://aib001.github.io/research/condensates/cganalysis/">
       
       
-        <link rel="prev" href="../../small-molecules/CDK7/">
+        <link rel="prev" href="../FUS_PLD_Droplet/">
       
       
-        <link rel="next" href="../cganalysis/">
+        <link rel="next" href="../../others/collaborative/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Droplet Formation Dynamics - AIB001's Homepage</title>
+        <title>CGAnalysis - AIB001's Homepage</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#coarse-grained-molecular-dynamics-study-of-liquid-liquid-phase-separation-in-fus-intrinsically-disordered-protein" class="md-skip">
+        <a href="#calvados_analysis-advanced-tools-for-coarse-grained-molecular-dynamics-analysis" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Droplet Formation Dynamics
+              CGAnalysis
             
           </span>
         </div>
@@ -601,6 +601,29 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../FUS_PLD_Droplet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Droplet Formation Dynamics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -618,7 +641,7 @@
   
   
   <span class="md-ellipsis">
-    Droplet Formation Dynamics
+    CGAnalysis
     
   </span>
   
@@ -631,7 +654,7 @@
   
   
   <span class="md-ellipsis">
-    Droplet Formation Dynamics
+    CGAnalysis
     
   </span>
   
@@ -654,36 +677,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#research-background" class="md-nav__link">
+  <a href="#what-is-calvados_analysis" class="md-nav__link">
     <span class="md-ellipsis">
-      Research Background
+      What is CALVADOS_Analysis?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#research-methods" class="md-nav__link">
+  <a href="#key-features" class="md-nav__link">
     <span class="md-ellipsis">
-      Research Methods
+      Key Features
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#main-research-findings" class="md-nav__link">
+  <a href="#performance-optimization" class="md-nav__link">
     <span class="md-ellipsis">
-      Main Research Findings
+      Performance Optimization
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#conclusions-and-future-perspectives" class="md-nav__link">
+  <a href="#visualization" class="md-nav__link">
     <span class="md-ellipsis">
-      Conclusions and Future Perspectives
+      Visualization
     </span>
   </a>
   
@@ -693,29 +716,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cganalysis/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    CGAnalysis
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -1482,73 +1482,31 @@
 
 
 
-<h1 id="coarse-grained-molecular-dynamics-study-of-liquid-liquid-phase-separation-in-fus-intrinsically-disordered-protein">Coarse-Grained Molecular Dynamics Study of Liquid-Liquid Phase Separation in FUS Intrinsically Disordered Protein<a class="headerlink" href="#coarse-grained-molecular-dynamics-study-of-liquid-liquid-phase-separation-in-fus-intrinsically-disordered-protein" title="Permanent link">&para;</a></h1>
-<h2 id="research-background">Research Background<a class="headerlink" href="#research-background" title="Permanent link">&para;</a></h2>
-<p>Protein liquid-liquid phase separation (LLPS) is a crucial biophysical process in cells, playing key roles in various biological functions. The FUS protein (Fused in Sarcoma) is a multifunctional RNA-binding protein, with its N-terminal prion-like domain (PLD, amino acids 1-163) exhibiting typical intrinsically disordered characteristics and serving as the critical region for FUS protein liquid-liquid phase separation.</p>
-<p>The LLPS process of FUS protein is closely associated with neurodegenerative diseases such as amyotrophic lateral sclerosis (ALS). Under normal physiological conditions, FUS protein can form membrane-less organelles through reversible LLPS to participate in RNA metabolism and other processes; however, when pathogenic mutations occur (such as G153E), this dynamic reversible phase separation may transform into irreversible solid-liquid phase separation, leading to abnormal protein aggregation in neurons and triggering neurodegenerative changes.</p>
-<p>Although experimental techniques such as protein photobleaching, nuclear magnetic resonance, and in vitro cell experiments provide important methods for studying LLPS, these approaches have limited resolution in terms of temporal and spatial scales, making it difficult to reveal the molecular mechanisms during phase separation. Molecular simulation methods offer an effective approach to address this limitation, enabling the prediction of protein behavior under different conditions from a microscopic perspective and revealing structural changes and dynamic characteristics during the phase separation process.</p>
-<p><img alt="FUS protein liquid-liquid phase separation (LLPS) and its mechanism" src="../../../img/research/FUS_PLD_Droplet/bg.png" /></p>
-<h2 id="research-methods">Research Methods<a class="headerlink" href="#research-methods" title="Permanent link">&para;</a></h2>
-<p>This study employs multi-scale computational methods to investigate the liquid-liquid phase separation process of FUS-PLD:</p>
-<ol>
-<li><strong>All-atom and coarse-grained force field benchmark testing</strong>:</li>
-<li>Using AlphaFold for preliminary 3D conformation modeling of FUS-PLD</li>
-<li>Conducting simulations with CHARMM-36m, Amber ff99SB, and AMBER-99SB-DISP all-atom force fields</li>
-<li>Comparing with CALVADOS and Mpipi-Recharged coarse-grained models</li>
-<li>Calculating parameters such as radius of gyration (Rg) and end-to-end distance (REE) to evaluate force field performance</li>
-<li><strong>Coarse-grained model construction and phase diagram plotting</strong>:</li>
-<li>Using the CALVADOS implicit solvent model to construct the FUS-PLD phase separation system</li>
-<li>Setting different temperature gradients (280K-305K) and building phase separation simulation boxes</li>
-<li>Calculating density distributions of condensed and dilute phases using Gaussian kernel density estimation</li>
-<li>Drawing phase diagrams based on Flory-Huggins theory and determining the critical temperature</li>
-<li><strong>Quench simulation</strong>:</li>
-<li>Designing two cooling paths: 350K→280K (high supercooling) and 350K→310K (low supercooling)</li>
-<li>Analyzing contact interaction networks, cluster growth, and structure factors</li>
-<li>Applying Ostwald ripening theory and physical models to analyze droplet growth dynamics</li>
-<li><strong>Droplet fusion dynamics study</strong>:</li>
-<li>Analyzing morphological evolution of droplet fusion and dissolution</li>
-<li>Calculating changes in structure factors over time and the number of clusters with more than 20 chains</li>
-<li>Analyzing dynamic differences in droplet fusion and dissolution under different supercooling conditions</li>
-</ol>
-<h2 id="main-research-findings">Main Research Findings<a class="headerlink" href="#main-research-findings" title="Permanent link">&para;</a></h2>
-<ol>
-<li><strong>All-atom and coarse-grained force field comparative validation</strong>:</li>
-<li>Coarse-grained models (CALVADOS and Mpipi-Recharged) outperform all-atom models in conformational sampling</li>
-<li>All-atom models show that FUS-PLD tends to behave like a structured protein rather than exhibiting the expected intrinsically disordered protein behavior</li>
-<li>Coarse-grained models better simulate the conformational ensemble of intrinsically disordered proteins</li>
-<li><strong>FUS-PLD phase diagram plotting</strong>:</li>
-<li>Under the CALVADOS model, the critical temperature of FUS-PLD is determined to be approximately 313.12K, close to physiological temperature</li>
-<li>A complete concentration-temperature phase diagram was drawn, providing a foundation for understanding FUS protein phase separation behavior</li>
-<li><strong>Droplet formation dynamics study</strong>:</li>
-<li>Discovery that supercooling degree is a key factor determining droplet formation rate</li>
-<li>Droplet growth undergoes two stages: an early stage dominated by cluster fusion and a later stage limited by diffusion</li>
-<li>Polar residues (GLN, ASN, ASP) and flexible residues (GLY) show significant contact preferences during cluster formation</li>
-<li><strong>Droplet fusion dynamics study</strong>:</li>
-<li>Under high supercooling conditions (280K), droplet fusion exhibits typical power-law growth (exponent approximately 1/3)</li>
-<li>Under low supercooling conditions (310K), droplets tend to dissolve</li>
-<li>The fusion process time scale is much shorter than the dissolution process, reflecting differences in energy barriers between different phase transition pathways</li>
-<li><strong>Development of analysis toolkit</strong>:</li>
-<li>Development of the CGAnalysis software package, specifically designed for processing trajectory data from coarse-grained models like CALVADOS</li>
-<li>Implementation of high-performance parallel computing and modular architecture, supporting multiple analysis tasks such as cluster size distribution and interaction heat maps</li>
-</ol>
-<p><img alt="Morphological evolution of droplet fusion and dissolution" src="../../../img/research/FUS_PLD_Droplet/SF.png" /></p>
-<h2 id="conclusions-and-future-perspectives">Conclusions and Future Perspectives<a class="headerlink" href="#conclusions-and-future-perspectives" title="Permanent link">&para;</a></h2>
-<p>This study explores the liquid-liquid phase separation mechanism of FUS-PLD in depth through multi-scale molecular simulations, revealing the physical details of droplet formation, fusion, and dissolution processes. The main conclusions include:</p>
-<ol>
-<li>In simulating the liquid phase separation process of intrinsically disordered proteins, coarse-grained models demonstrate better conformational sampling capabilities compared to all-atom models</li>
-<li>The critical temperature of FUS-PLD is close to physiological temperature, indicating that its phase separation behavior is highly sensitive to environmental conditions</li>
-<li>The droplet formation process exhibits a two-stage growth mechanism: initially dominated by cluster fusion, later transitioning to diffusion-limited Ostwald ripening</li>
-<li>Polar and flexible residues play a dominant role in cluster formation, and this residue interaction specificity provides a molecular basis for understanding the dynamic characteristics of FUS protein droplets</li>
-<li>Droplets exhibit different dynamic behaviors under high and low supercooling conditions, which may be related to how biological systems regulate the formation and dissolution of protein condensates</li>
-</ol>
-<p>Future research directions include:</p>
+<h1 id="calvados_analysis-advanced-tools-for-coarse-grained-molecular-dynamics-analysis">CALVADOS_Analysis: Advanced Tools for Coarse-Grained Molecular Dynamics Analysis<a class="headerlink" href="#calvados_analysis-advanced-tools-for-coarse-grained-molecular-dynamics-analysis" title="Permanent link">&para;</a></h1>
+<p>I'm excited to share a new Python package I've been working on called <strong>CALVADOS_Analysis</strong>. This toolkit is designed for comprehensive analysis of coarse-grained molecular dynamics simulations, with a particular focus on CALVADOS models and similar systems.</p>
+<h2 id="what-is-calvados_analysis">What is CALVADOS_Analysis?<a class="headerlink" href="#what-is-calvados_analysis" title="Permanent link">&para;</a></h2>
+<p>CALVADOS_Analysis is a specialized package that helps researchers extract meaningful insights from molecular dynamics simulations. It provides a suite of analytical tools to understand complex biomolecular systems through various computational lenses.</p>
+<h2 id="key-features">Key Features<a class="headerlink" href="#key-features" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Further exploration of the formation dynamics of networks within high-density regions</li>
-<li>Refinement of benchmark testing systems for all-atom and coarse-grained force fields</li>
-<li>Investigation of the effects of core pathogenic mutations (such as G156E) on the phase behavior of FUS protein</li>
-<li>Combination with experimental techniques to validate simulation predictions and construct phase separation pathogenic mechanism models with greater biomedical significance</li>
+<li><strong>Cluster Analysis</strong>: Track formation, size distribution, and evolution of molecular clusters</li>
+<li><strong>Contact Networks</strong>: Generate detailed contact maps and interactive network visualizations</li>
+<li><strong>Structure Factor Analysis</strong>: Quantify structural organization with sophisticated structure factor calculations</li>
+<li><strong>Diffusion Analysis</strong>: Measure molecular mobility and diffusion coefficients</li>
+<li><strong>Density Analysis</strong>: Analyze phase separation with slab density profiles and Flory-Huggins theory fitting</li>
 </ul>
-<p>These studies not only deepen the understanding of protein phase transition physical mechanisms but also provide a theoretical basis for early diagnosis and treatment strategy development for neurodegenerative diseases such as ALS.</p>
+<h2 id="performance-optimization">Performance Optimization<a class="headerlink" href="#performance-optimization" title="Permanent link">&para;</a></h2>
+<p>The package leverages multiprocessing capabilities to significantly accelerate computations, making it practical for analyzing large simulation datasets. Most modules include parallel processing to efficiently handle thousands of trajectory frames.</p>
+<h2 id="visualization">Visualization<a class="headerlink" href="#visualization" title="Permanent link">&para;</a></h2>
+<p>CALVADOS_Analysis generates publication-quality visualizations including:</p>
+<ul>
+<li>Contact network graphs</li>
+<li>Cluster size violin plots</li>
+<li>Time evolution charts</li>
+<li>Structure factor plots</li>
+<li>Phase separation density profiles</li>
+</ul>
+<p>I'll be posting more detailed tutorials about specific features in upcoming blog posts. If you work with coarse-grained simulations, especially for phase separation systems, I'd love to hear your feedback on the package!</p>
+<p><a href="https://github.com/aib001/CGAnalysis">GitHub repository</a> | <a href="http://ug.link/DXP4800PLUS-7C5/filemgr/share-download/?id=04f0522372ce443f93a8aa6d1ecd0d1b">Download example cases</a></p>
 
 
 

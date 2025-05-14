@@ -381,7 +381,7 @@ plugins:
 nav:
   - Home: index.md
   - Academic Research:
-      # - research/index.md
+      - research/index.md
       - Small Molecules:
           # - research/small-molecules/index.md
           - LigTraj: research/small-molecules/LigTraj_Software_Database.md
