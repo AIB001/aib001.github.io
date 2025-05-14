@@ -16,7 +16,7 @@ The LigTraj.org database serves as a centralized repository of protein-ligand mo
 - **Rich Metadata**: Binding affinity data, experimental conditions, and computational parameters
 - **Quality Control Metrics**: Assessments of simulation stability, convergence, and reliability
 
-Researchers can directly query LigTraj.org to access pre-computed trajectories, avoiding the computational expense of running new simulations for common protein-ligand systems. The database is specifically structured to facilitate machine learning applications:
+Researchers can directly query [LigTraj.org](http://ligtraj.org) to access pre-computed trajectories, avoiding the computational expense of running new simulations for common protein-ligand systems. The database is specifically structured to facilitate machine learning applications:
 
 - Ready-to-use training datasets for binding affinity prediction models
 - Benchmark systems for testing new computational methods
@@ -88,9 +88,9 @@ Database.fetch('CDK2', 'compound_id_123')
 
 This toolkit represents an emerging paradigm in computer-aided drug design where dynamic simulations inform machine learning models. Future developments will focus on:
 
-- Integration with advanced deep learning architectures (transformers, diffusion models)
-- Enhanced sampling techniques to improve feature quality
-- Expansion of the LigTraj.org database to cover more protein families and compound classes
+- **Integration with advanced deep learning architectures (transformers, diffusion models, GNN, CNN etc.)**
+- Enhanced sampling techniques (e.g. REST2) to improve feature quality
+- **Expansion of the [LigTraj.org](http://ligtraj.org) database to cover more protein families (especially for kinase from human being source) and compound classes**
 - Development of standardized benchmarks for trajectory-based machine learning models
 - Automated feature selection for specific prediction tasks
 - Community-driven contributions to the trajectory database
