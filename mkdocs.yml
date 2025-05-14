@@ -276,7 +276,7 @@
 
 # Project information
 site_name: "AIB001's Homepage"
-site_url: "https://github.com/AIB001/aib001.github.io"
+site_url:  https://aib001.github.io/
 site_author: "A.I.B."
 site_description: "Personal academic website and research portfolio"
 
