@@ -5,10 +5,10 @@
   <div class="compact-profile-content">
     <h2>A.I.B. (Zhaoqi Shi)</h2>
     <p>
-      Institute of Quantitative Biology, Zhejiang University; Theoretical Chemistry Institute, University of Wisconsin-Madison
+        Double major in Biological Science and Physics; Serving as RA in Institute of Quantitative Biology, Zhejiang University, instructed by Prof. Ruhong Zhou. And I'm a Ph.D. candidate in Theoretical Chemistry Institute, University of Wisconsin-Madison.
     </p>
     <p>
-      Researcher in molecular biology and biophysics, focusing on protein structure-function relationships and biomolecular condensates.
+      Researcher in molecular biophysics, focusing on molecular dynamic simulation, protein structure-function relationships and biomolecular condensates.
     </p>
   </div>
 </div>

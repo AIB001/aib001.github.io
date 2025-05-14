@@ -7,12 +7,12 @@ Welcome to my research portfolio. My work focuses on molecular biology and bioph
 ### Small Molecules
 My research on small molecules investigates their interactions with biological macromolecules and their potential therapeutic applications. This includes drug discovery, structure-activity relationships, and molecular mechanism studies.
 
-[Learn more about my small molecules research →](small-molecules.md)
+[Learn more about my small molecules research →](./small-molecules/)
 
 ### Condensates
 I study biomolecular condensates and phase separation phenomena in cellular systems. This research explores how liquid-liquid phase separation contributes to cellular organization and function.
 
-[Learn more about my condensates research →](condensates.md)
+[Learn more about my condensates research →](./condensates)
 
 ### Other Research Interests
 Beyond my primary focus areas, I'm involved in various collaborative projects spanning computational biology, biophysics, and molecular modeling.
