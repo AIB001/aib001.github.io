@@ -411,6 +411,7 @@ nav:
           # - learning/physics/index.md
           - Computational Physics: learning/physics/Computational_Physics_forZJU.md
           - Equilibrium Statistical Physics: learning/physics/Equilibrium_Statistical_Physics.md
+          - Field Theory: learning/physics/field_theory.md
           # - Solid State Physics: learning/physics/solid-state.md
       - Computational Biophysics & Others:
           # - learning/others/index.md
