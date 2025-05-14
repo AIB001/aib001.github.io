@@ -14,6 +14,7 @@
 </div>
 
 
+
 ## Research Interests
 
 <div class="feature-section">
@@ -35,12 +36,6 @@
     <a href="research/others/collaborative/">Learn more →</a>
   </div>
 </div>
-
-## Recent Updates
-
-- **May 2025**: Published a new paper on protein condensates in Nature Communications
-- **April 2025**: Started a new collaboration on small molecule inhibitors
-- **March 2025**: Presented research at International Biophysics Conference
 
 ## About This Site
 
