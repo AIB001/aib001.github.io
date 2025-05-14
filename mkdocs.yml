@@ -282,7 +282,7 @@ site_description: "Personal academic website and research portfolio"
 
 # Repository
 repo_name: AIB001/aib001.github.io
-repo_url: git@github.com:AIB001/aib001.github.io.git
+repo_url: https://github.com/AIB001/aib001.github.io
 edit_uri: ""
 
 # Copyright

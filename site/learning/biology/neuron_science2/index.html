@@ -1,0 +1,3172 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Personal academic website and research portfolio">
+      
+      
+        <meta name="author" content="A.I.B.">
+      
+      
+        <link rel="canonical" href="https://aib001.github.io/learning/biology/neuron_science2/">
+      
+      
+        <link rel="prev" href="../neuron_science1/">
+      
+      
+        <link rel="next" href="../ecology1/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Neuron Science2 - AIB001's Homepage</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="AIB001&#39;s Homepage" class="md-header__button md-logo" aria-label="AIB001's Homepage" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.36 2.64c1.64 0 3 1.36 3 3 0 1.65-1.36 3-3 3-1.65 0-3-1.35-3-3 0-.3.05-.58.14-.84-1.07-.51-2.25-.8-3.5-.8a8 8 0 0 0-8 8l.04.84-1.99.21L2 12A10 10 0 0 1 12 2c1.69 0 3.28.42 4.67 1.16.49-.33 1.07-.52 1.69-.52m0 2a1 1 0 0 0-1 1 1 1 0 0 0 1 1c.56 0 1-.45 1-1 0-.56-.44-1-1-1M5.64 15.36c1.65 0 3 1.35 3 3 0 .3-.05.58-.14.84 1.07.51 2.25.8 3.5.8a8 8 0 0 0 8-8l-.04-.84 1.99-.21L22 12a10 10 0 0 1-10 10c-1.69 0-3.28-.42-4.67-1.16-.49.33-1.07.52-1.69.52-1.64 0-3-1.36-3-3 0-1.65 1.36-3 3-3m0 2c-.56 0-1 .45-1 1 0 .56.44 1 1 1a1 1 0 0 0 1-1 1 1 0 0 0-1-1M12 8a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AIB001's Homepage
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Neuron Science2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="deep-purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/AIB001/aib001.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AIB001/aib001.github.io
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../research/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Academic Research
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Learning
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../life/index.md" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Life
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="AIB001&#39;s Homepage" class="md-nav__button md-logo" aria-label="AIB001's Homepage" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.36 2.64c1.64 0 3 1.36 3 3 0 1.65-1.36 3-3 3-1.65 0-3-1.35-3-3 0-.3.05-.58.14-.84-1.07-.51-2.25-.8-3.5-.8a8 8 0 0 0-8 8l.04.84-1.99.21L2 12A10 10 0 0 1 12 2c1.69 0 3.28.42 4.67 1.16.49-.33 1.07-.52 1.69-.52m0 2a1 1 0 0 0-1 1 1 1 0 0 0 1 1c.56 0 1-.45 1-1 0-.56-.44-1-1-1M5.64 15.36c1.65 0 3 1.35 3 3 0 .3-.05.58-.14.84 1.07.51 2.25.8 3.5.8a8 8 0 0 0 8-8l-.04-.84 1.99-.21L22 12a10 10 0 0 1-10 10c-1.69 0-3.28-.42-4.67-1.16-.49.33-1.07.52-1.69.52-1.64 0-3-1.36-3-3 0-1.65 1.36-3 3-3m0 2c-.56 0-1 .45-1 1 0 .56.44 1 1 1a1 1 0 0 0 1-1 1 1 0 0 0-1-1M12 8a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4"/></svg>
+
+    </a>
+    AIB001's Homepage
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/AIB001/aib001.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AIB001/aib001.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../research/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Academic Research
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Academic Research
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Small Molecules
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Small Molecules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/small-molecules/LigTraj_Software_Database/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LigTraj
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/small-molecules/CDK7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CDK7 Inhibitor Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Condensates
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Condensates
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/condensates/FUS_PLD_Droplet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Droplet Formation Dynamics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Other Research
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Other Research
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/others/collaborative.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    THZ1 Nano Drug Delivery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tools and Tutorial
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Tools and Tutorial
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/tools/GROMACS_protocol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GROMACS Tutorial
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/tools/NAMD_CDK7example/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NAMD Tutorial
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/tools/NAMD_Parametering_new_residue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NAMD Parametering new residue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/publications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Publications
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Learning
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Learning
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Biology
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Biology
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../neuron_science1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Neuron Science1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Neuron Science2
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Neuron Science2
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chapter 16. 一般感觉的神经机制
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 16. 一般感觉的神经机制">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161" class="md-nav__link">
+    <span class="md-ellipsis">
+      16.1 基本概念
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#162" class="md-nav__link">
+    <span class="md-ellipsis">
+      16.2 化学感觉
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chapter 17. 运动和运动疾病
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 17. 运动和运动疾病">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#171" class="md-nav__link">
+    <span class="md-ellipsis">
+      17.1 躯体运动系统
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#172" class="md-nav__link">
+    <span class="md-ellipsis">
+      17.2 脊髓运动控制
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#173" class="md-nav__link">
+    <span class="md-ellipsis">
+      17.3 大脑运动控制
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-18-adpd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chapter 18. 神经退行性疾病AD&amp;PD
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 18. 神经退行性疾病AD&amp;PD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#181" class="md-nav__link">
+    <span class="md-ellipsis">
+      18.1 神经退行性疾病概述
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#182-ad" class="md-nav__link">
+    <span class="md-ellipsis">
+      18.2 老年痴呆症AD
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1app" class="md-nav__link">
+    <span class="md-ellipsis">
+      阶段1：淀粉样前体蛋白（APP）代谢异常
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2a" class="md-nav__link">
+    <span class="md-ellipsis">
+      阶段2：Aβ寡聚体的形成和聚集
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3a" class="md-nav__link">
+    <span class="md-ellipsis">
+      阶段3：Aβ斑块的形成
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      阶段4：神经炎症反应
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5nfts" class="md-nav__link">
+    <span class="md-ellipsis">
+      阶段5：神经纤维缠结（NFTs）的形成
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      阶段6：神经元死亡和脑萎缩
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      阶段7：临床症状的出现
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#183" class="md-nav__link">
+    <span class="md-ellipsis">
+      18.3 帕金森症
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chapter 21. 激励、奖赏、和成瘾的环路机制
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 21. 激励、奖赏、和成瘾的环路机制">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-nacvta" class="md-nav__link">
+    <span class="md-ellipsis">
+      21.1 NAc输入对VTA潜在动机行为的作用
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chapter 22. 自主神经系统
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 22. 自主神经系统">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221" class="md-nav__link">
+    <span class="md-ellipsis">
+      22.1 自主神经系统对内脏活动调节的基本环节
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#172_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      17.2 中枢神经系统对内脏活动的调节
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-23-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chapter 23-1. 大脑与节律
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-23-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chapter 23-2. 神经内分泌系统
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chapter 27. 情绪情感的神经生物学机制
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 27. 情绪情感的神经生物学机制">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#271" class="md-nav__link">
+    <span class="md-ellipsis">
+      27.1神经疾病概述：脑的错误信息处理
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#272" class="md-nav__link">
+    <span class="md-ellipsis">
+      27.2 精神分裂症及其神经生物学基础
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#273-depression" class="md-nav__link">
+    <span class="md-ellipsis">
+      27.3 抑郁症(Depression)及其神经生物学基础
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#274-anxiety-disorder" class="md-nav__link">
+    <span class="md-ellipsis">
+      27.4 焦虑症(Anxiety disorder)及其神经生物学基础
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ecology1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ecology1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ecology2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ecology2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Physics
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Physics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../physics/Computational_Physics_forZJU/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Computational Physics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../physics/Equilibrium_Statistical_Physics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Equilibrium Statistical Physics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../physics/solid-state.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Solid State Physics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Computational Biophysics & Others
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Computational Biophysics & Others
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../others/Principle_of_FEP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Free Energy Pertubation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Life
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Life
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../life/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    None
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../life/blog.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Blog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../life/travel.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Travel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../life/reading.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reading
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="2">神经生物学复习2<a class="headerlink" href="#2" title="Permanent link">&para;</a></h1>
+<h2 id="chapter-16">Chapter 16. 一般感觉的神经机制<a class="headerlink" href="#chapter-16" title="Permanent link">&para;</a></h2>
+<ul>
+<li>感觉：神经系统的主要目的是感知周围世界并做出相应的反应</li>
+</ul>
+<h3 id="161">16.1 基本概念<a class="headerlink" href="#161" title="Permanent link">&para;</a></h3>
+<p><strong>感觉系统基于的流程：</strong></p>
+<ul>
+<li>信号：是一种物理刺激，能够提供周围环境相关的信息</li>
+<li>收集：收集外部信号的过程</li>
+<li>转导：将外部刺激转化为神经信号的过程</li>
+<li>处理：神经系统处理这些信息的过程</li>
+<li>反应：最终形成行动的过程</li>
+</ul>
+<p><strong>刺激的四个基本特性：</strong></p>
+<ul>
+<li>类型</li>
+<li>强度</li>
+<li>持续时间</li>
+<li>位置</li>
+</ul>
+<p><strong>受体势：</strong></p>
+<ul>
+<li>在转导部位由刺激信号产生</li>
+<li>是分级点位，并非全或无</li>
+</ul>
+<p><strong>动作电位：</strong></p>
+<ul>
+<li>在轴突的触发区发生，由转导部位传递而来的电位变化触发</li>
+<li>从轴突远端向近端传递</li>
+</ul>
+<p><strong>递质释放：</strong></p>
+<ul>
+<li>突触末端释放</li>
+<li>递质与突出后细胞膜受体结合，将信息向下一级传递</li>
+</ul>
+<p><strong>感觉受体：</strong></p>
+<p>感觉受体：感受特定的理化刺激，并将其转导为神经电化学信号</p>
+<p>基本的感觉受体：</p>
+<ul>
+<li>机械性感觉受体</li>
+<li>温度受体</li>
+<li>化学受体</li>
+<li>光受体</li>
+</ul>
+<p><strong>刺激强度的编码：</strong></p>
+<ul>
+<li>刺激强度不同的时候，受体势幅值大小有区别；但是动作电位没有幅值区别，在频率上有区分</li>
+<li>刺激强度增加时，除了单个感觉受体的动作电位评率增加，还可以招募更多的感觉受体协同作用</li>
+</ul>
+<p><strong>刺激持续时间的编码：</strong></p>
+<ul>
+<li>紧张型受体：只要刺激在继续，就可以较长时间的放放电</li>
+<li>时相型受体：放电时间短，刺激在继续也会<strong>很快恢复到不放电的状态</strong></li>
+</ul>
+<p>动作电位的频率增加，或者持续时间更长，都可以引起突触前钙信号更强，进而释放更多的神经递质（或者神经递质释放时间更加持久）</p>
+<h3 id="162">16.2 化学感觉<a class="headerlink" href="#162" title="Permanent link">&para;</a></h3>
+<p>化学感觉主要包括味觉和嗅觉</p>
+<p>嗅觉：嗅上皮、筛状板、嗅球</p>
+<p><img alt="image-20240605165853197" src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240605165853197.png" /></p>
+<h4 id="1621">16.2.1 嗅觉受体神经元的嗅觉转导机制<a class="headerlink" href="#1621" title="Permanent link">&para;</a></h4>
+<p><strong>嗅觉的分子机制</strong></p>
+<ul>
+<li><span class="arithmatex">\(G_{olf}\)</span>是一类仅存在于嗅觉感受器细胞内的特殊G蛋白</li>
+<li>主要受体：Odor<span class="arithmatex">\(\rightarrow\)</span>GPCR<span class="arithmatex">\(\rightarrow\)</span>AC<span class="arithmatex">\(\rightarrow\)</span>cAMP<span class="arithmatex">\(\rightarrow\)</span>CNG Channel<span class="arithmatex">\(\rightarrow\)</span>钙离子内流<span class="arithmatex">\(\rightarrow\)</span>钙激活氯通道(ANO2等)<span class="arithmatex">\(\rightarrow\)</span>​氯离子外流去极化</li>
+<li><img alt="image-20240605172622097" src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240605172622097.png" /></li>
+<li>每个细胞<strong>表达一种气味受体</strong>，气味受体是GPCR蛋白</li>
+<li>某种气味是多种气味分子的组合</li>
+<li>标记线系统</li>
+<li>一种气味分子可以激活多种气味受体</li>
+<li>一种气味受体可以被多种气味分子激活</li>
+</ul>
+<p><strong>中枢嗅觉通路</strong>：</p>
+<p>嗅觉感受器细胞(嗅上皮)<span class="arithmatex">\(\rightarrow\)</span>轴突穿过筛板进入嗅球<span class="arithmatex">\(\rightarrow\)</span>多次分支后与二级神经元在嗅小球内形成突触<span class="arithmatex">\(\rightarrow\)</span>通过嗅觉通路进一步将轴突送至大脑，<strong>轴突分支后只有一条与丘脑背内侧核形成突触的通路最终到达新皮层</strong></p>
+<h4 id="1622">16.2.2 味觉<a class="headerlink" href="#1622" title="Permanent link">&para;</a></h4>
+<p><strong>五种基本味觉：酸甜咸苦鲜</strong></p>
+<p>味觉器官：</p>
+<ul>
+<li>TRC：味觉受体细胞</li>
+<li>味神经</li>
+<li>味孔</li>
+<li>舌、乳突、味蕾</li>
+</ul>
+<p><strong>味觉感受细胞：</strong></p>
+<ul>
+<li>一个味觉细胞的生命周期<strong>大约为两周</strong></li>
+<li><strong>感受器电位：被适当的刺激所激活，其膜电位将发生变化，这种变化称为感受器电位</strong></li>
+</ul>
+<p><strong>味觉转导机制：</strong></p>
+<ul>
+<li>直接通过离子通道(盐和酸)</li>
+<li>结合并阻断或激活离子通道(酸)</li>
+<li>与受体膜结合，激活第二信号系统，进而开放或关闭离子通道(苦、甜、鲜)</li>
+</ul>
+<p><strong>中枢味觉通路：</strong></p>
+<ul>
+<li>来自舌头和口腔不同部位由三对脑神经传递至延髓</li>
+<li>味觉神经纤维进入延髓内的小的味觉核团</li>
+<li>味觉核团发出的神经纤维与丘脑的神经元形成突触，进而投射到大脑皮层区域</li>
+</ul>
+<h4 id="1623">16.2.3 听觉与平衡感<a class="headerlink" href="#1623" title="Permanent link">&para;</a></h4>
+<p>外耳、中耳（听小骨）、内耳（<strong>耳蜗-听觉/前庭-平衡感</strong>）</p>
+<p>耳蜗中包括了柯蒂氏器：是位于<strong>耳蜗膜蜗管基底膜上的螺旋器</strong>，自耳蜗底至耳蜗顶全长约32mm，由<strong>内、外毛细胞，支柱细胞和盖膜(tectorial membrane)组成</strong>，是听觉感受器的主要成分</p>
+<p>蛙内耳静纤毛：声音通过机械门离子通道转化为电信号</p>
+<p><strong>听觉转导的过程：</strong></p>
+<p>机械力通过<strong>顶端连接(Tip link)</strong>，<strong>拉开静纤毛表面的机械门控通道</strong>（非选择性阳离子通道TMC1），引起胞外<strong>钾离子内流</strong>（胞外高钾），使得<strong>毛细胞去极化</strong>，并进一步激活电压依赖性钙通道，引起<strong>胞内钙升高</strong>，触发神经递质的释放。</p>
+<p><strong>音频响应的机制：</strong>
+基底膜（basilar membrane）<strong>越靠近蜗底，越硬而窄，对高频振动敏感</strong>；越靠近蜗顶，越软而宽，对低频敏感。</p>
+<p><strong>前庭系统：</strong></p>
+<ul>
+<li>静态平衡：相对静止状态下维持平衡的能力，主要依赖于囊状器官，<strong>囊状器官中有感觉细胞和钙晶石</strong>，当身体处于直立或倾斜状态时会碎细胞产生压力</li>
+<li>动态平衡：主要依赖半规管，半规管中也含有细胞和钙晶石，排列方式更加适合检测头部运动的方向和速度变化</li>
+</ul>
+<h4 id="1624">16.2.4 体感系统<a class="headerlink" href="#1624" title="Permanent link">&para;</a></h4>
+<p><strong>体感：</strong>也称躯体感觉，是<strong>触觉、压觉、温觉、痛觉和本体感觉</strong>（关于肌肉和关节位置和运动、躯体姿势和运动以及面部表情的感觉）的总称。</p>
+<ul>
+<li>脊髓背根神经节：一群位于脊髓后根神经的神经细胞体（神经节）。<strong>背根神经节包含传入感觉神经元的细胞体</strong></li>
+<li>三叉神经：混合神经，也就是<strong>既含有运动神经又含有感觉神经</strong>。感觉部分收集来自面部和头部的信息，运动部分则控制<strong>咀嚼肌</strong></li>
+</ul>
+<p><strong>本体感觉：</strong>肌肉、肌腱、关节等运动器官本身在<strong>不同状态（运动或静止）时产生的感觉</strong>。 例如，人在闭眼时能感知身体各部的位置和运动状态。 因位置较深，又称<strong>深部感觉</strong>。</p>
+<p><strong>触觉：</strong>皮肤受到触压等机械刺激时所引起的感觉</p>
+<ul>
+<li>触觉感受器可以为游离神经末梢、毛囊感受器、迈斯纳小体、鲁非尼小体和梅克尔盘等</li>
+</ul>
+<p><strong>观感侏儒：</strong>一幅显示大脑感觉皮层表面积相对大小的图像，对应着大脑中负责该部位感觉功能的区域的大小。</p>
+<p><strong>痛觉：</strong>是机体受到伤害性刺激时，产生的一种不愉快的感觉；痛觉常常伴有情绪变化和防御反应</p>
+<p><strong>慢性疼痛</strong>：指的是持续时间较长(一个月以上)的疼痛症状</p>
+<p><strong>痛觉感受器：</strong></p>
+<ul>
+<li>特殊的外周感觉神经元，通常位于皮肤的最表层、关节囊内、骨膜以及血管壁周围</li>
+<li>脊髓丘脑通路：各种不适宜的致痛因素激活痛觉感受器，将其转化为神经电化学信号，经<strong>脊髓背根节神经元</strong>传递至<strong>脊髓背角</strong>，由此处的<strong>投射神经元形成上行传导通路</strong>，经<strong>脑干、丘脑等多级中继到达体感皮质</strong>，产生痛觉。</li>
+</ul>
+<p><strong>痛觉的外周和中枢调制：</strong></p>
+<ul>
+<li><strong>痛觉过敏( hyperalgesia )：</strong>是一种主要的<strong>神经病理性疼痛</strong>，它会在伤害性刺激在受损部位及周围组织或远端产生各种<strong>敏感性增强的疼痛</strong>或疼痛过敏区域，引起更强的疼痛反应。也就是说，对疼痛刺激的疼痛反应增加，<strong>疼痛阈值也随之降低</strong>。</li>
+<li><strong>痛觉超敏( allodynia ):</strong> 异常性疼痛，是对以<strong>正常不应引发疼痛的刺激</strong>即产生疼痛的病理状态。</li>
+<li>外周化学介质：组胺、前列腺素、舒缓激肽、P物质</li>
+<li><strong>Analgesia (镇痛;痛觉缺失):</strong></li>
+<li>由于痛觉感受器和大脑之间的神经通路中断或者抑制而导致的痛觉丧失</li>
+</ul>
+<p><strong>温度觉：</strong></p>
+<p><strong>温度受体TRP通道检测不同的温度</strong>，TRP通道受体感受冷热、化学刺激</p>
+<p>感受器的适应性：感觉系统对<strong>持续性刺激或者重复性刺激的反应性降低</strong></p>
+<h2 id="chapter-17">Chapter 17. 运动和运动疾病<a class="headerlink" href="#chapter-17" title="Permanent link">&para;</a></h2>
+<p><strong>运动系统</strong>：</p>
+<ul>
+<li>躯体运动系统</li>
+<li>自主运动系统</li>
+</ul>
+<p><strong>自主运动系统：</strong></p>
+<ul>
+<li>交感神经：唤醒作用、能量产生</li>
+<li>副交感神经：对靶器官具有拮抗作用，镇定恢复作用</li>
+<li>肠神经系统</li>
+</ul>
+<p><strong>运动输出系统与自动输出系统</strong>：</p>
+<p>运动系统：CNS直接到效应器官</p>
+<p>自主神经系统：CNS经PNS的交感神经节或副交感神经节</p>
+<p><img alt="image-20240616114231465" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240616114231465.png" /></p>
+<p>肠道神经系统控制消化道、胰腺、胆囊等活动</p>
+<h3 id="171">17.1 躯体运动系统<a class="headerlink" href="#171" title="Permanent link">&para;</a></h3>
+<p><strong>运动的类型：</strong></p>
+<ul>
+<li>反射运动：脊髓或大脑通过简单神经环路对外界特定刺激产生的相对固定的反应</li>
+<li>随意运动：大脑有意识的操控运动</li>
+<li>节律性运动：可以被自主控制的运动，但许多这样的运动不同于自主运动，因为它们的<strong>时间和空间组织是由脊髓或脑干回路自主控制的</strong></li>
+</ul>
+<p><strong>运动的组织：</strong></p>
+<ul>
+<li>脊髓运动神经执行运动</li>
+<li>脑干对脊髓运动环路起到调节作用</li>
+<li>大脑皮层调节脑干和脊髓中的运动神经元的作用</li>
+</ul>
+<p><strong>参与运动控制的神经结构：</strong></p>
+<ul>
+<li>脊髓</li>
+<li>脑干</li>
+<li>大脑运动皮层</li>
+<li>小脑</li>
+<li>基底神经节</li>
+</ul>
+<p><img alt="image-20240616114325312" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240616114325312.png" /></p>
+<h3 id="172">17.2 脊髓运动控制<a class="headerlink" href="#172" title="Permanent link">&para;</a></h3>
+<p>下位运动神经元：位于脊髓的腹角</p>
+<ul>
+<li><span class="arithmatex">\(\alpha\)</span>神经元：主要的神经元-骨骼肌上的轴突突触</li>
+<li><span class="arithmatex">\(\gamma\)</span>神经元：位于<span class="arithmatex">\(\alpha\)</span>神经元之间，支配骨骼肌的梭内肌纤维</li>
+<li>运动单元：一个运动神经元和他支配的所有运动肌肉纤维</li>
+<li>运动神经元池：支配一块肌肉的所有运动神经元</li>
+</ul>
+<p>肌纤维种类：</p>
+<ul>
+<li>梭外肌纤维：由alpha神经元控制</li>
+<li>梭内肌纤维：由gamma神经元控制</li>
+</ul>
+<p><strong>背根神经节的输入来自肌梭，提供关于肌肉长度的反馈</strong>；运动皮层和脑干中的上运动神经元，肌肉的自主控制；中间神经元</p>
+<p><strong>脊柱对运动单元的控制：</strong></p>
+<ul>
+<li>来自肌肉纺锤肌弹性感受器的感觉反馈</li>
+</ul>
+<p>gamma神经元的作用：调节肌肉纺锤体的敏感度</p>
+<p><img alt="image-20240616114419466" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240616114419466.png" /></p>
+<p>Golgi Tendon Organs（高尔基肌腱器官）：额外的本体感觉输入-监测肌肉张力</p>
+<p><strong>来自关节的本体感觉：</strong></p>
+<ul>
+<li>本体感受性轴突</li>
+<li>对关节内的角度、运动速度等作出反应</li>
+<li>关节受体信息：结合肌梭、高尔基肌腱器官、皮肤受体</li>
+<li>大多数受体都在快速适应，带来关于移动关节的信息</li>
+</ul>
+<p>脊髓使用多个<strong>中枢模式发生器</strong>来控制运动</p>
+<p><strong>ALS: 肌萎缩，侧索硬化</strong></p>
+<ul>
+<li>ALS是一种进行性的由<strong>下位运动神经元</strong>和大脑皮层的<strong><em>*上运动神经元变性引起</em>*，导致</strong>进行性运动无力**</li>
+</ul>
+<p><strong>兴奋收缩耦连</strong>：</p>
+<ul>
+<li>神经肌肉节</li>
+</ul>
+<p><strong>重症肌无力：</strong></p>
+<ul>
+<li>MG的特征是自主运动肌的无力和疲劳，通常包括面部表情的肌肉</li>
+<li>MG是一种自身免疫性疾病；患者的免疫系统产生针对人体自身烟碱乙酰胆碱受体的抗体</li>
+<li>有效的治疗包括乙酰ChE抑制剂或抑制免疫系统                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       </li>
+</ul>
+<h3 id="173">17.3 大脑运动控制<a class="headerlink" href="#173" title="Permanent link">&para;</a></h3>
+<p>大脑运动皮层：前额叶的Area 4和Area 6</p>
+<p>下降脊髓束：</p>
+<p><img alt="image-20240616114433754" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240616114433754.png" /></p>
+<p><strong>皮层脊髓束</strong></p>
+<ul>
+<li><strong>侧束通路</strong>：控制随意运动；主要由皮层脊髓束和红核脊髓束构成</li>
+</ul>
+<p><strong>腹内侧通路：</strong></p>
+<ul>
+<li>起源于脑干的姿势和运动的通路</li>
+<li>前庭脊髓束：头部平衡、头部转动</li>
+<li>顶盖脊髓束：定向反应</li>
+<li>脑桥和延髓网状脊髓束(调节肌肉张力等)</li>
+</ul>
+<p><strong>基底神经节：</strong><strong>自主运动的选择与起始</strong></p>
+<p><img alt="image-20240616114456550" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240616114456550.png" /></p>
+<p>基底神经节的运动通路：</p>
+<p><img alt="image-20240616114528487" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240616114528487.png" /></p>
+<p>基底神经节紊乱：</p>
+<ul>
+<li>帕金森症(PD)</li>
+<li>亨廷顿症(HD)</li>
+</ul>
+<p><strong>小脑功能</strong></p>
+<ul>
+<li>参与平稳精准动作的控制</li>
+<li>参与眼-手的协调，运动时间、姿势</li>
+<li>作为一种<strong>运动误差检测和校正系统</strong></li>
+<li>参与运动相关技能的学习</li>
+</ul>
+<p><strong>小脑病变：</strong></p>
+<ul>
+<li>共济失调</li>
+<li>协调不能</li>
+<li>辨距障碍</li>
+</ul>
+<h2 id="chapter-18-adpd">Chapter 18. 神经退行性疾病AD&amp;PD<a class="headerlink" href="#chapter-18-adpd" title="Permanent link">&para;</a></h2>
+<h3 id="181">18.1 神经退行性疾病概述<a class="headerlink" href="#181" title="Permanent link">&para;</a></h3>
+<ul>
+<li>神经退行性疾病（neurodegenerative diseases）：是一类<strong>慢性、随着年龄增长而进行性加重的神经系统疾病</strong>，由神经退行性病变而引起</li>
+</ul>
+<p><strong>常见的神经退行性疾病：</strong></p>
+<ul>
+<li>老年痴呆症（AD）</li>
+<li>帕金森氏症（PD）</li>
+<li>亨廷顿症（HD）</li>
+<li>肌萎缩性侧索硬化症(ALS)</li>
+<li>额颞叶痴呆(FTD)</li>
+<li>朊蛋白病</li>
+</ul>
+<p><strong>容易受到退行性疾病影响的神经和区域：</strong>
+<img alt="image-20240616114616215" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240616114616215.png" /></p>
+<p><strong>不同退行性疾病的大脑沉积物：</strong></p>
+<ul>
+<li>AD：<strong>细胞外淀粉样斑块</strong>和<strong>胞浆内神经纤维缠结</strong>是阿尔茨海默病的病理特征</li>
+<li><strong>细胞质内聚集物</strong>通常存在于PD和ALS患者的神经元中</li>
+<li>在HD患者中可以观察到亨廷顿蛋白的<strong>核内内含物</strong></li>
+<li>在一些传染性海绵状脑病的病例中，存在位于不同脑区的细胞外<strong>朊病毒淀粉样斑块</strong></li>
+<li>这些沉积物的蛋白组成不同，但是<strong>超微结构是类似的</strong>，都是有<strong>纤维状聚合网络组成的中心</strong></li>
+</ul>
+<h3 id="182-ad">18.2 老年痴呆症AD<a class="headerlink" href="#182-ad" title="Permanent link">&para;</a></h3>
+<p>AD的标志：外细胞淀粉样斑块、内细胞神经纤维缠结（NFT）</p>
+<p>Amyloid plaque主要由<span class="arithmatex">\(A\beta\)</span>​蛋白（约4kD）组成，NFT主要由tau蛋白，尤其是过度磷酸化的tau蛋白(p-tau)组成</p>
+<p>AD中多个脑区多种神经元退行性变性（<strong>突触丢失、树突和轴突异常、死亡</strong>）</p>
+<p>AD的临床表现主要是：</p>
+<ul>
+<li>早期出现记忆丧失</li>
+<li>接着出现其他认知功能障碍，比如推理、语言等</li>
+<li>逐渐丧失自主能力，最终死亡</li>
+</ul>
+<p><span class="arithmatex">\(A\beta\)</span><strong>蛋白</strong>：</p>
+<ul>
+<li><span class="arithmatex">\(A\beta\)</span>前体蛋白：编码APP的极影位于第21对染色体</li>
+<li>可被<span class="arithmatex">\(\alpha,\beta,\gamma\)</span>-secretase多种酶剪切产生不同的片段，<span class="arithmatex">\(\beta,\gamma\)</span>-secretase顺序剪切产生<span class="arithmatex">\(A\beta\)</span>，提高<span class="arithmatex">\(\alpha\)</span>-secretase的活性可以降低<span class="arithmatex">\(A\beta\)</span>​的产生</li>
+<li><strong>APP基因</strong>变异和<strong>PS1及PS2</strong>（ <strong>γ-secretase 复合物的组成成分</strong>）<strong>基因</strong>变异可显著影响Aβ产生的量或种类；这两类基因变异可导致家族性AD</li>
+</ul>
+<p><strong>AD的分类：</strong></p>
+<ul>
+<li>早发型AD：60岁之前出现，多为家族性；在所有AD病例中所占比例很小</li>
+<li>迟发型AD：多在65岁之后，多为散发性AD；AD病例中大多为散发型AD</li>
+</ul>
+<p>适量的<span class="arithmatex">\(A\beta\)</span>具有生理功能，<strong>打破打破<span class="arithmatex">\(A\beta\)</span>生成和清除平衡可导致<span class="arithmatex">\(A\beta\)</span>聚集</strong>； <span class="arithmatex">\(A\beta DP\)</span>是<span class="arithmatex">\(A\beta\)</span>降解蛋白；<span class="arithmatex">\(A\beta\)</span>斑块量与AD的临床表现没有很好的相关性，可溶性的寡聚<span class="arithmatex">\(A\beta\)</span>可能具有更强的细胞毒性</p>
+<p><strong>AD的淀粉样蛋白级联假说：</strong></p>
+<p><img alt="image-20240616111138956" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240616111138956.png" /></p>
+<blockquote>
+<h3 id="1app">阶段1：淀粉样前体蛋白（APP）代谢异常<a class="headerlink" href="#1app" title="Permanent link">&para;</a></h3>
+<p>在阿尔茨海默病早期，淀粉样前体蛋白（APP）在神经元细胞膜上被异常切割。正常情况下，APP通过α-和γ-分泌酶的作用被切割，不产生有害的Aβ。然而，在AD中，<strong>β-和 γ-分泌酶的活性增加</strong>，导致APP被<strong>切割生成Aβ42</strong>（一种更易聚集的淀粉样蛋白片段）。</p>
+<h3 id="2a">阶段2：Aβ寡聚体的形成和聚集<a class="headerlink" href="#2a" title="Permanent link">&para;</a></h3>
+<p><strong>Aβ42单体倾向于自我聚集形成寡聚体。研究表明，这些Aβ寡聚体是毒性的，它们干扰神经元的正常功能，导致突触功能障碍和神经元死亡。</strong></p>
+<h3 id="3a">阶段3：Aβ斑块的形成<a class="headerlink" href="#3a" title="Permanent link">&para;</a></h3>
+<p>随着Aβ寡聚体进一步聚集，它们<strong>形成更大的淀粉样蛋白纤维，最终沉积在脑组织中</strong>，形成典型的老年斑（Aβ斑块）。这些斑块是AD病理特征之一，但更早期的Aβ寡聚体被认为是更具毒性的。</p>
+<h3 id="4">阶段4：神经炎症反应<a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
+<p>Aβ斑块的存在激活脑中的免疫细胞（如小胶质细胞和星形胶质细胞），<strong>引发炎症反应</strong>。慢性神经炎症进一步损害神经元，导致神经元死亡和脑组织萎缩。</p>
+<h3 id="5nfts">阶段5：神经纤维缠结（NFTs）的形成<a class="headerlink" href="#5nfts" title="Permanent link">&para;</a></h3>
+<p>另一个阿尔茨海默病的重要病理特征是神经纤维缠结（NFTs），主要由异常磷酸化的Tau蛋白组成。Aβ寡聚体和斑块可能通过多种机制（如氧化应激和炎症）诱导Tau蛋白的异常磷酸化，导致NFTs的形成。</p>
+<h3 id="6">阶段6：神经元死亡和脑萎缩<a class="headerlink" href="#6" title="Permanent link">&para;</a></h3>
+<p>持续的Aβ毒性、神经炎症和NFTs的形成导致广泛的神经元死亡。随着神经元丧失和突触损伤，脑组织逐渐萎缩，特别是在与记忆和认知相关的区域（如海马和大脑皮层）。</p>
+<h3 id="7">阶段7：临床症状的出现<a class="headerlink" href="#7" title="Permanent link">&para;</a></h3>
+<p>神经元死亡和脑组织萎缩最终导致认知功能下降和行为变化，临床上表现为阿尔茨海默病的症状，包括记忆丧失、认知障碍、行为和情绪问题。</p>
+</blockquote>
+<p><strong>Tau蛋白：</strong></p>
+<p>Tau蛋白是一个微管结合蛋白，在正常神经元中，Tau蛋白<strong>主要在轴突中表达</strong>；编码Tau蛋白的基因为MAPT，位于第17号染色体；Tau蛋白有很多翻译后修饰，如磷酸化、乙酰化、泛素化等</p>
+<ul>
+<li>到目前为止，没有发现MAPT任何变异导致AD</li>
+<li>NFT主要由tau蛋白尤其是p-tau组成</li>
+<li><span class="arithmatex">\(A\beta\)</span>可以诱发Tau相关病变，比如异位表达、磷酸化等；tau蛋白也在介导<span class="arithmatex">\(A\beta\)</span>的病变中有重要的作用</li>
+<li>相比于<span class="arithmatex">\(A\beta\)</span>蛋白，tau蛋白异常于AD的临床症状具有更好的相关性</li>
+</ul>
+<p><strong><span class="arithmatex">\(A\beta\)</span>加速tau蛋白病理：</strong></p>
+<ul>
+<li><span class="arithmatex">\(Aβ\)</span>的聚集和积累是AD的初始<strong>致病触发器</strong>，并与<strong>tau蛋白相互作用</strong>，<strong>加剧神经原纤维病理</strong>，并诱导其扩散到<strong>新皮质</strong></li>
+<li>脑脊液<span class="arithmatex">\(A\beta_{42}\)</span>蛋白的减少是AD的<strong>第一个标志</strong>，并先于脑脊液tau蛋白的增加，后者是神经退行性变的后期生物标志物</li>
+<li>动物模型表明，<strong><span class="arithmatex">\(Aβ\)</span>诱导tau蛋白病理</strong>，而tau蛋白是<span class="arithmatex">\(Aβ\)</span>毒性的某些方面所必需的</li>
+<li>载脂蛋白E(ApoE)变异是一个AD的主要危险因素</li>
+</ul>
+<p>一种<strong>适应不良的先天免疫反应</strong>已成为许多神经退行性疾病发病机制的关键驱动力。许多疾病相关基因上的snp诱导适应不良的先天免疫反应，这些反应也与<strong>衰老和表观遗传变化有关</strong>。<strong>小胶质细胞</strong>是大脑中的常驻免疫细胞，它与星形胶质细胞相互作用，并受到外周免疫系统的调节。<strong>适应不良的小胶质细胞可能由于其检测或对稳态失衡的反应功能障碍而损害神经元回路，导致蛋白质聚集物的积累，与星形胶质细胞和可能的外周免疫系统协同作用</strong>。小胶质细胞也可以通过改变细胞因子信号传导和突触剪枝而导致神经元和网络功能障碍，而不依赖于它们对蛋白质聚集的影响。</p>
+<p><img alt="image-20240616114636538" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240616114636538.png" /></p>
+<p><strong>AD小结：</strong></p>
+<ul>
+<li>淀粉样蛋白-β是由神经元膜中淀粉样前体蛋白的切割而产生的</li>
+<li>淀粉样蛋白-β形成的低聚物，被认为会破坏突触的功能</li>
+<li>淀粉样蛋白-β低聚物的原纤维聚集成斑块</li>
+<li>淀粉样蛋白-β沉积在大脑的血管中</li>
+<li>错误折叠的tau蛋白聚集成神经元内的<strong>神经纤维缠结</strong>，取代细胞内的细胞器</li>
+<li>错误折叠的tau蛋白可以通过突触到其他神经元，在那里它催化tau蛋白的进一步错误折叠</li>
+</ul>
+<p><strong>AD的诊断：</strong></p>
+<ul>
+<li>金标准：<span class="arithmatex">\(A\beta\)</span>沉积和NFT形成</li>
+<li>脑髓液(CSF)或血液中<span class="arithmatex">\(A\beta\)</span>和tau蛋白的含量</li>
+<li>MMSE等量表</li>
+<li>影像学诊断</li>
+</ul>
+<p><strong>用于治疗AD的药物和治疗手段：</strong></p>
+<ul>
+<li>抗-<span class="arithmatex">\(A\beta\)</span>单克隆抗体</li>
+<li>国产AD新药GV-971</li>
+<li>非药理学手段</li>
+</ul>
+<h3 id="183">18.3 帕金森症<a class="headerlink" href="#183" title="Permanent link">&para;</a></h3>
+<p><strong>PD的临床症状：</strong></p>
+<ul>
+<li>静止性震颤</li>
+<li>动作迟缓。自主运动的减慢和丧失</li>
+<li>增加肢体被动移动的抵抗力</li>
+<li>姿势失衡，无法保持固定的姿势</li>
+</ul>
+<p><strong>PD的病理特征：</strong></p>
+<ul>
+<li>中脑黑质区<strong>多巴胺神经元大量丢失</strong>：<strong>基地运动环路活动异常</strong></li>
+<li>路易小体</li>
+</ul>
+<p>多个基因与PD相关</p>
+<p><strong>PD分类：</strong></p>
+<p>家族性PD(&lt;10%)：alpha-synuclein, Parkin, DJ-1, Pink-1, LRRK2等</p>
+<p>散发型PD(&gt;90%)：环境因素：农药，MPTP等</p>
+<p><strong>PD的治疗：</strong></p>
+<ul>
+<li>注射左旋多巴：多巴胺合成前体，参与儿茶酚肽合成途径</li>
+<li>深部脑刺激(DBS)</li>
+<li>细胞代替治疗</li>
+</ul>
+<p><strong>神经退行性疾病常见的信号通路改变：</strong></p>
+<ul>
+<li>蛋白质数量控制</li>
+<li>自噬-溶酶体途径</li>
+<li>线粒体稳态</li>
+<li>蛋白质种子效应和应激颗粒的传播</li>
+<li>突触毒性和网络功能障碍</li>
+</ul>
+<p>神经退行性疾病总结：</p>
+<ul>
+<li>相关蛋白的<strong>过度聚集可导致神经系统退行性变</strong></li>
+<li>基因突变或环境因素可导致<strong>蛋白质错误折叠</strong>，从而引起蛋白质过度聚集</li>
+<li>蛋白质异常折叠及其聚集可导致<strong>神经元死亡或功能障碍</strong></li>
+<li><strong>线粒体功能异常、氧化应激、炎症反应等</strong>在神经退行性疾病中起重要作用</li>
+</ul>
+<h2 id="chapter-21">Chapter 21. 激励、奖赏、和成瘾的环路机制<a class="headerlink" href="#chapter-21" title="Permanent link">&para;</a></h2>
+<p><strong>动机行为：</strong>趋利避害行为又称为动机行为，对于生物个体乃至整个种群的生存至关重要。动机行为的环路异常于众多精神疾病密切相关，比如抑郁症、成瘾等</p>
+<p>使人兴奋的化学物质：<strong>多巴胺、血清素、催产素、内啡肽</strong></p>
+<p>脑内的<strong>多巴胺</strong>主要分布于：下丘脑、腹侧中央导水管、<strong>腹侧被盖区(VTA)和黑质(SNC)</strong></p>
+<p><strong>激励：</strong></p>
+<ul>
+<li>激励是一种被大脑认为本质上<strong>是积极的、需要接近的刺激</strong></li>
+<li>激励的种类：初级激励（食物、性等）；次级激励（金钱、游戏等）</li>
+<li>许多奖励性刺激与内部驱动（内稳态行为）的减少有关；消除需要的状态是有益的（比如酒精成瘾够喝酒）</li>
+</ul>
+<p><strong>颅内自我刺激（ICSS）：</strong></p>
+<p>多巴胺神经元是VTA自我刺激所必需的；自然激励激活多巴胺神经元、介导多巴胺释放</p>
+<p><strong>VTA-DA是奖励系统的中心：</strong></p>
+<ul>
+<li>中脑缘DA途径：VTA<span class="arithmatex">\(\rightarrow\)</span>伏隔核(NAc)，激励性突出<strong>想要追求的</strong></li>
+<li>中皮质DA途径：VAT<span class="arithmatex">\(\rightarrow\)</span>额皮质，对<strong>行为、认知的控制和激励</strong></li>
+<li>下丘脑：对吃、喝酒、性等动机行为至关重要…（综合行为）</li>
+</ul>
+<p><strong>VTA DA神经元的解剖学、分子功能和异质性：</strong></p>
+<ul>
+<li>只有外侧VTA和SNC的DA神经元表现<span class="arithmatex">\(I_h\)</span>​(超极化激活电流)电特性</li>
+<li>超极化激活的环状核苷酸门控（HCN）阳离子通道</li>
+</ul>
+<h3 id="211-nacvta">21.1 NAc输入对VTA潜在动机行为的作用<a class="headerlink" href="#211-nacvta" title="Permanent link">&para;</a></h3>
+<p><strong>NAc和VTA相互连接</strong></p>
+<ul>
+<li>50%-70%的多巴胺（DA）的传入神经元是抑制性的</li>
+<li>抑制性输入可能控制DA神经元的放电的暂停</li>
+<li>从NAc到VTA的<strong>强抑制投射</strong></li>
+<li>DA神经元的活性（破裂）可能是通过对GABA传入神经的解除抑制来控制的</li>
+</ul>
+<p><img alt="image-20240616114655052" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240616114655052.png" /></p>
+<p><strong>没有证据表明NAc和VTA多巴胺神经元之间存在功能联系</strong>；NAc投射到VTA在<strong>控制多巴胺活动中</strong>的关键作用；其中狂犬病毒追踪揭示了NAc和VTA多巴胺神经元之间的强大的直接联系</p>
+<p><strong>先前NAc对VAT输入研究的局限：</strong></p>
+<ul>
+<li>VTA多巴胺神经元是异质性的，并投射到不同的大脑区域</li>
+<li>解剖上和功能上不同的NAc亚区域： NAc内侧壳（NAcMed）、NAc核、NAc外侧壳（NAcLat）</li>
+<li>NAc输入对VTA的功能作用尚不清楚</li>
+<li>不同的NAc细分如何使信息流成不同的VTA子环路</li>
+</ul>
+<p>中边缘多巴胺系统中不同的抑制亚回路，在NAcMed和NAcLat中表达d1r的神经元靶向不同的VTA亚区域；</p>
+<ul>
+<li>NAcLat输入主要解除抑制NAcLat投射的VTA多巴胺神经元</li>
+<li>NAcMed输入主要抑制NAcMed投射的VTA多巴胺神经元</li>
+</ul>
+<p>在VTA中的NAcLat输入的光遗传刺激促进了实时位置偏好，在VTA中的NAcLat末端的光遗传刺激促进了自我刺激行为，对VTA中的NAcMed末端的光遗传刺激并不能诱导位置偏好或厌恶</p>
+<p><strong>编码奖励机制以外：</strong></p>
+<ul>
+<li>外侧VTA DA神经元构成的环路更偏重于编码奖赏</li>
+<li>DA神经元编码奖赏预测错误（RPE）</li>
+<li>杏仁核神经元编码奖励</li>
+<li>VTA DA神经元可以编码惩罚</li>
+<li>积极动机和消极动机的多巴胺控制</li>
+</ul>
+<p><strong>奖励机制与成瘾息息相关</strong></p>
+<ul>
+<li>药物介导DA的释放：HVA作为反映中枢DA代谢率的重要指标；DOPAC 是神经元儿茶酚胺代谢物之一</li>
+<li>由药物引起的快速DA增加是奖励的必要条件</li>
+<li>单次接触可卡因会增加VTA中的突触强度</li>
+<li>光遗传去电位可以通过慢性可卡因注射来抑制运动的敏感性</li>
+<li>高剂量尼古丁诱发厌恶情绪的回路机制，因此<strong>过量的尼古丁摄取反而会导致情绪低落</strong></li>
+</ul>
+<h2 id="chapter-22">Chapter 22. 自主神经系统<a class="headerlink" href="#chapter-22" title="Permanent link">&para;</a></h2>
+<p><strong>James-Lange情绪学说：</strong></p>
+<ul>
+<li>情绪体验是对身体生理反应的变化</li>
+<li>情绪是一种内脏的反应</li>
+</ul>
+<p><strong>内脏反射的途径</strong>：</p>
+<ul>
+<li>高级神经活动（如焦虑、恐惧等）诱发的内脏反射</li>
+<li>各种感觉刺激所伴发的内脏反射</li>
+<li>内脏活动和内脏环境改变所引发的内脏反射</li>
+</ul>
+<p>上述都是自主神经系统(<strong>Autonomic nervous system</strong>)调控</p>
+<p>Bichat在1800年首先提出动物性生命和植物性生命，Reil在1807首先应用这个概念，提出植物性神经系统，又称内脏神经系统和自主神经系统</p>
+<h3 id="221">22.1 自主神经系统对内脏活动调节的基本环节<a class="headerlink" href="#221" title="Permanent link">&para;</a></h3>
+<p><strong>自主神经系统：</strong></p>
+<ul>
+<li>传入神经</li>
+<li>传出神经</li>
+<li>交感神经</li>
+<li>副交感神经</li>
+</ul>
+<p><strong>自主神经系统调控的基本换环节：</strong></p>
+<ul>
+<li>压力感受器</li>
+<li>中枢神经系统</li>
+<li>效应器</li>
+</ul>
+<p>e.g. 内脏反射（窦弓反射）：血压感受器活动--传入神经--中枢--传出神经--效应器</p>
+<p><strong>内脏感受器：</strong></p>
+<ul>
+<li>位于内脏的游离神经末梢或环层小体</li>
+<li>分类：化学感受器、压力感受器、牵张感受器、容量感受器</li>
+</ul>
+<p><strong>传入纤维：</strong></p>
+<ul>
+<li>有髓鞘</li>
+<li><span class="arithmatex">\(A\beta\)</span></li>
+<li><span class="arithmatex">\(A\delta\)</span></li>
+<li>无髓鞘：C</li>
+<li>胞体位于背根神经节、与舌咽与迷走神经相关的感觉神经节</li>
+</ul>
+<p><strong>辐散式神经支配</strong></p>
+<p><strong>反馈调节内脏活动</strong></p>
+<p><strong>向高级中枢提供内脏活动信息（比如痛觉）</strong></p>
+<p><strong>牵涉性疼痛（Referred Pain）：</strong></p>
+<ul>
+<li>由内脏引起的疼痛被认为是躯体起源的</li>
+<li>这可能是由于<strong>内脏疼痛传入神经与躯体疼痛纤维沿着相同的路径传播</strong></li>
+</ul>
+<p><strong>脊髓内脏感觉传入神经元：</strong></p>
+<p>背根神经节</p>
+<p><strong>内脏传入的中枢投射：</strong></p>
+<p>初级内脏传入纤维、迷走神经、舌咽神经；次级内脏传入纤维、孤束核尾侧、孤束核头侧</p>
+<h4 id="_1"><strong>交感与副交感神经：</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h4>
+<p><strong>中枢神经系统三种神经输出组成：</strong>
+<img alt="image-20240608205125616" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240608205125616.png" /></p>
+<ul>
+<li>交感节前神经元位于脊索中间外侧柱</li>
+</ul>
+<p>支配方式：交感神经节、肾上腺髓质嗜络细胞、侧神经节</p>
+<p><img alt="image-20240608205419813" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240608205419813.png" /></p>
+<ul>
+<li>交感节后神经元对效应器的支配特征：曲张体</li>
+</ul>
+<p><strong>交感神经元解剖学：</strong></p>
+<ul>
+<li>脊髓外侧灰角-t1和l2节段之间的神经节前神经元</li>
+<li>节前神经</li>
+<li>短</li>
+<li>在背根、脊神经或者内脏神经里活动</li>
+<li>交感神经节中的神经节神经元</li>
+<li>交感神经链神经节（椎旁神经节）</li>
+<li>侧腹神经节</li>
+<li>肾上腺髓质</li>
+<li>神经节后纤维：<strong>长纤维</strong></li>
+</ul>
+<p><strong>副交感神经的组织和解剖：</strong></p>
+<ul>
+<li>节前神经元：脑干（颅神经核III、VII、IX、X）和脊髓骶节（S2-S4）</li>
+<li>节前纤维：</li>
+<li>长</li>
+<li>以颅神经 III, VII, IX, X离开大脑</li>
+<li>颅神经X提供了75%的副交感神经输出</li>
+<li>骶骨神经元形成盆腔神经</li>
+<li>神经节神经元：位于靶器官内或附近的周围神经节中</li>
+<li>神经节后纤维：短纤维</li>
+</ul>
+<p><strong>压力感受器反射</strong></p>
+<ul>
+<li>压力感受器反射：压力感受器神经元→整合中心（NTS，髓质）→交感神经运动输出→心脏，动脉阻力血管</li>
+<li>反馈调控</li>
+</ul>
+<p><img alt="image-20240608210627219" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240608210627219.png" /></p>
+<p><strong>交感副交感神经功能活动特点：</strong></p>
+<ul>
+<li>主要调节心肌,平滑肌,腺体(消化腺,汗 腺,部分内分泌腺)的活动</li>
+</ul>
+<p><strong>交感神经系统的角色</strong></p>
+<ul>
+<li>交感神经系统是“战斗或逃跑”（“fight-or-flight”）系统</li>
+<li>涉及 E 活动 – 运动、紧急情况</li>
+<li>促进运动中的调整</li>
+<li>器官的血流量减少，肌肉的血流量增加</li>
+<li>其活动可以通过一个<strong>受到威胁的人的反应</strong>来说明</li>
+<li>心率加快，呼吸快速且深沉</li>
+<li>皮肤变冷且出汗，瞳孔扩大</li>
+</ul>
+<p><strong>副交感神经系统的激活</strong>： 副交感神经系统产生的效果</p>
+<ul>
+<li>放松</li>
+<li>食物处理</li>
+<li>能量吸收</li>
+<li>瞳孔收缩</li>
+<li>呼吸道收缩</li>
+<li>心率和血压降低</li>
+<li>刺激排便和排尿</li>
+</ul>
+<p><strong>自主神经系统的紧张性作用：</strong></p>
+<ul>
+<li>有持续冲动传出，<strong>紧张性来源于中枢</strong>，因中枢<strong>不断接受外周信号传入</strong></li>
+<li>切断迷走神经→心跳加快</li>
+<li>切断心交感神经→心率减慢</li>
+</ul>
+<p><strong>自主神经系统对整体生理功能调节的意义</strong>：</p>
+<ul>
+<li>交感神经系统的活动比较广泛，常作为一个整体起作用，尤其在<strong>应急（如:剧烈运动、紧张、失血或寒冷）状态下表现更为突出</strong>：出现心跳加强加快、皮肤内脏血管收缩、循环血量增加、血压增高、支气管舒张、肾上腺髓质激素分泌增多、糖原分解加速和血糖升高等现象。
+  <strong>作用</strong>：整个系统的活动在于<strong>调动机体的潜能以适应环境的急变</strong>，维持内环境的稳态。</li>
+<li>副交感神经系统的活动比较局限，<strong>在安静时作用较强</strong>。整个系统的活动在于<strong>保护机体、休整恢复、促进消化、蓄积能量、加强排泄和生殖功能等方面</strong>。如，心脏活动的抑制、瞳孔缩小、消化功能增强以促进营养物质的吸收和能量的补充等</li>
+</ul>
+<h4 id="_2"><strong>肠神经系统：</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>肌间神经丛</p>
+</li>
+<li>
+<p>粘膜下神经丛</p>
+</li>
+<li>
+<p>肠神经系统作用：</p>
+</li>
+</ul>
+<p><img alt="image-20240608211507910" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240608211507910.png" /></p>
+<p><strong>自主神经系统的神经递质</strong>：</p>
+<p><img alt="image-20240608211544984" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240608211544984.png" /></p>
+<p>离子型受体：直接改变通道构象</p>
+<p>代谢型神经递质受体：常具有第二信使</p>
+<p><strong>GPCR可以走捷径途径也可以走级联放大途径</strong></p>
+<p><strong>肾上腺素受体</strong></p>
+<p><strong>Alpha 1</strong></p>
+<ul>
+<li>收缩以下部位的血管：皮肤、粘膜、腹部脏器、肾脏、唾液腺等</li>
+<li>扩张瞳孔</li>
+<li>兴奋性</li>
+</ul>
+<p><strong>Alpha 2</strong>
+- 抑制胰腺分泌胰岛素
+- 通常是抑制性的</p>
+<p><strong>Beta 1</strong>
+- 作用于心脏、肾脏
+- 兴奋性</p>
+<p><strong>Beta 2</strong>
+- 作用于呼吸系统、消化系统
+- 抑制性</p>
+<p><strong>Beta 3</strong>
+- 作用于脂肪组织
+- 兴奋性</p>
+<p>交感神经肾上腺素受体激活是通过GPCR级联放大</p>
+<h5 id="_3"><strong>胆碱受体</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h5>
+<p><strong>M型受体（Muscarinic）</strong></p>
+<ul>
+<li>副交感神经靶器官</li>
+<li>节后胆碱能纤维</li>
+<li>心肌</li>
+<li>平滑肌</li>
+<li>可产生兴奋或抑制效果</li>
+<li>取决于靶器官的受体类型</li>
+</ul>
+<p><strong>N型受体（Nicotinic）</strong></p>
+<ul>
+<li>存在于以下部位：</li>
+<li>骨骼肌表面</li>
+<li>交感神经和副交感神经分支的所有节前神经元</li>
+<li>肾上腺髓质的节前神经元</li>
+<li>ACh（乙酰胆碱）与N型受体结合的效果总是通过打开阳离子通道激发</li>
+</ul>
+<p>副交感神经毒蕈碱乙酰胆碱受体的激活打开了一种K+通道，通过GPCR shourt-cut 通路打开钾离子通道</p>
+<h3 id="172_1">17.2 中枢神经系统对内脏活动的调节<a class="headerlink" href="#172_1" title="Permanent link">&para;</a></h3>
+<p>脊髓、脑干、下丘脑、边缘系统参与</p>
+<p><strong>脊髓对内脏活动的调节</strong>：</p>
+<ul>
+<li>内脏反射</li>
+<li>排尿反射</li>
+<li>排便反射</li>
+</ul>
+<p><strong>脑干对内脏活动的调节</strong>：</p>
+<ul>
+<li>延髓</li>
+<li>心血管调节中枢</li>
+<li>呼吸中枢</li>
+<li>脑桥</li>
+<li>呼吸调整中枢</li>
+<li>逼尿反射中枢</li>
+</ul>
+<p><strong>中脑对内脏活动的调节：</strong></p>
+<ul>
+<li>瞳孔对光反射神经中枢</li>
+<li>视网膜→视神经→视交叉→双侧视束→上丘臂→中脑顶盖前区→双侧动眼神经副核→动眼神经→睫状神经节→节后纤维→瞳孔括约肌收缩→双侧瞳孔缩小</li>
+<li>外侧被盖部——怒叫中枢：血压上升，瞳孔扩大</li>
+<li>中央灰质背侧区——防御性血压升高</li>
+</ul>
+<p>霍纳氏综合征：Horner综合征即<strong>颈交感神经麻痹综合征</strong>，<strong>是由于交感神经中枢至眼部的通路上受到任何压迫和破坏</strong>，引起瞳孔缩小、眼球内陷、上睑下垂及患侧面部无汗的综合征</p>
+<p><strong>下丘脑的结构功能</strong></p>
+<p>调节内脏活动的较高级中枢，<strong>把内脏活动与躯体、内分泌功能联系起来成为重要的整合中枢</strong></p>
+<p><strong>下丘脑和动机行为</strong></p>
+<ul>
+<li>下丘脑是动机性行为（motivated behavior）的中枢。</li>
+<li>下丘脑根据<strong>接受各种感觉信息，发出指令到效应器官，完成调节</strong>，以维持机体内环境的稳定（homeostasis）</li>
+</ul>
+<p><strong>下丘脑的植物性和内分泌控制功能</strong></p>
+<ol>
+<li><strong>心血管调节</strong></li>
+<li>刺激下丘脑后部和外侧部可以导致血压（BPA）和心率（HR）上升。</li>
+<li>
+<p>刺激下丘脑视前区可以导致血压（BPA）和心率（HR）下降。</p>
+</li>
+<li>
+<p><strong>体温调节</strong></p>
+</li>
+<li>
+<p>视前区/下丘脑前部（POA/AH）在体温调节中起关键作用。</p>
+</li>
+<li>
+<p><strong>体液调节</strong></p>
+</li>
+<li>口渴中枢（LH，外侧下丘脑）</li>
+<li>
+<p>视上核：分泌抗利尿激素（ADH）</p>
+</li>
+<li>
+<p><strong>子宫收缩和乳汁射出调节</strong></p>
+</li>
+<li>
+<p>室旁核：分泌催产素（Oxytocin）</p>
+</li>
+<li>
+<p><strong>摄食行为调节</strong></p>
+</li>
+<li>饥饿时血糖降低→下丘脑外侧区摄食中枢（LH, feeding center）被激活→摄食行为增加，导致多食（破坏此中枢→拒食；消瘦）。</li>
+<li>
+<p>血糖升高→下丘脑腹内侧核饱食中枢（VMH, satiety center）被激活→拒食（破坏此中枢→肥胖）。</p>
+</li>
+<li>
+<p><strong>腺垂体分泌调节</strong></p>
+</li>
+<li>
+<p>下丘脑神经内分泌细胞合成多种调节性多肽（RH, IH）→经垂体门脉系统传递至腺垂体→促进腺垂体分泌激素（GH, PRL, FSH/LH, TSH, ACTH, MSH）。</p>
+</li>
+<li>
+<p><strong>行为功能</strong></p>
+</li>
+<li>下丘脑外侧区（Lateral hypothalamus）：掌管愤怒和打斗行为。</li>
+<li>下丘脑腹内侧核（Ventromedial nucleus）：控制饱食、减少进食和平静。</li>
+<li>室周核纤薄区（Thin zone of the periventricular nucleus）：与恐惧和惩罚相关。</li>
+<li>
+<p>性驱动（Sexual drive）</p>
+</li>
+<li>
+<p><strong>生物节律控制</strong></p>
+</li>
+<li>视交叉上核（SCN）：节律性发放冲动，控制机体昼夜节律活动，包括内分泌和神经核团的调节。</li>
+<li>自主神经系统和边缘系的调节。</li>
+</ol>
+<h4 id="_4"><strong>边缘系统</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
+<p><img alt="image-20240608224945554" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240608224945554.png" /></p>
+<p><strong>边缘系统：Papez环</strong></p>
+<p>边缘系统的功能：</p>
+<ul>
+<li>情绪</li>
+<li>本能行为</li>
+</ul>
+<h5 id="reward-and-punishment-functions">奖励和惩罚功能（Reward and Punishment Functions）<a class="headerlink" href="#reward-and-punishment-functions" title="Permanent link">&para;</a></h5>
+<h6 id="reward-centers">奖励中心（Reward Centers）<a class="headerlink" href="#reward-centers" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>下丘脑外侧核和腹内侧核（Lateral and Ventromedial Nuclei of the Hypothalamus）</strong>：这些区域与奖励和愉悦体验相关，调节动机和满足感。</li>
+</ul>
+<h6 id="pleasant-or-satisfaction">愉悦或满足（Pleasant or Satisfaction）<a class="headerlink" href="#pleasant-or-satisfaction" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>多巴胺系统（Dopamine System）</strong>：特别是中脑边缘多巴胺系统，包括<strong>腹侧被盖区（Ventral Tegmental Area, VTA）和伏隔核（Nucleus Accumbens）</strong>。多巴胺在奖励体验和愉悦感中起关键作用。</li>
+</ul>
+<h6 id="placidity-and-tameness">平静和驯服（Placidity and Tameness）<a class="headerlink" href="#placidity-and-tameness" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>杏仁核（Amygdala）*<em>和*</em>下丘脑（Hypothalamus）</strong>：调节情绪反应，尤其是在情绪平静和减少攻击行为方面。</li>
+</ul>
+<h6 id="self-stimulation">自我刺激（Self-stimulation）<a class="headerlink" href="#self-stimulation" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>中脑边缘系统（Mesolimbic System）</strong>：在自我刺激行为实验中发现，动物在这些区域受到电刺激时，会主动寻求<strong>重复此类刺激的行为</strong>。</li>
+</ul>
+<h5 id="punishment-centers-in-limbic-system">边缘系统中的惩罚中心（Punishment Centers in Limbic System）<a class="headerlink" href="#punishment-centers-in-limbic-system" title="Permanent link">&para;</a></h5>
+<h6 id="areas">区域（Areas）<a class="headerlink" href="#areas" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>中脑导水管周围的中央灰质（Central Gray Area Surrounding the Aqueduct of Sylvius in the Mesencephalon）</strong>: 位于中脑，中脑导水管周围灰质区域。</li>
+<li><strong>下丘脑和丘脑的周围室区（Periventricular Zones of the Hypothalamus and Thalamus）</strong>：下丘脑和丘脑的靠近脑室的区域。</li>
+<li><strong>杏仁核和海马体（Amygdala and Hippocampus）</strong>：这两个结构在情绪处理和记忆形成中起关键作用。</li>
+</ul>
+<h6 id="functions">功能（Functions）<a class="headerlink" href="#functions" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>不愉快、厌恶、逃避倾向（Unpleasant, Aversion, Escape Tendency）</strong>：这些区域的活动与感受不愉快、厌恶和逃避行为相关。</li>
+</ul>
+<h5 id="other-parts-of-limbic-system">边缘系统的其他部分（Other Parts of Limbic System）<a class="headerlink" href="#other-parts-of-limbic-system" title="Permanent link">&para;</a></h5>
+<h6 id="1-hippocampus">1. 海马体（Hippocampus）<a class="headerlink" href="#1-hippocampus" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>学习和记忆（Learning and Memory）</strong>：在学习和记忆的形成中起重要作用。</li>
+</ul>
+<h6 id="2-amygdala">2. 杏仁核（Amygdala）<a class="headerlink" href="#2-amygdala" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>情绪（Emotion）</strong>：在情绪处理尤其是<strong>恐惧和愤怒</strong>反应中起关键作用。</li>
+</ul>
+<h6 id="3-limbic-cortex">3. 边缘皮层（Limbic Cortex）<a class="headerlink" href="#3-limbic-cortex" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>行为控制的脑关联区（A Cerebral Association Area for Control of Behavior）</strong>：作为行为控制的脑关联区，调节复杂的行为反应。</li>
+</ul>
+<h2 id="chapter-23-1">Chapter 23-1. 大脑与节律<a class="headerlink" href="#chapter-23-1" title="Permanent link">&para;</a></h2>
+<p>节律的种类:</p>
+<ul>
+<li>近日：每天波动</li>
+<li>睡眠-清醒，温度，荷尔蒙，产尿，肠胃活动等</li>
+<li>超日：一个周期超过一天</li>
+<li>冬眠、排卵等</li>
+<li>次日：周期小于一天</li>
+<li>快速眼动周期等</li>
+</ul>
+<p><strong>生物节律：</strong>几乎所有动物都有昼夜节律来调节他们的行为；在<strong>人类中，睡眠倾向和体温之间大约呈反比的关系</strong></p>
+<ul>
+<li>当白天和黑暗的周期被移除时——昼夜节律或多或少以相同的时间表继续——昼夜节律的主要时钟不是天文的（太阳和地球），而是在大脑中生物的</li>
+<li>大脑时钟并不完善，需要偶尔重置</li>
+<li>外部刺激，如光和暗刺激，或每日的温度变化，<strong>有助于调整大脑的时钟，保持它们与阳光的进出同步</strong></li>
+<li>大脑时钟是研究特定神经元活动和行为之间联系的一个有趣的例子</li>
+</ul>
+<p><strong>授时因子：</strong>重置生物钟的<strong>外界刺激</strong>（比如<strong>阳光、运动、温度</strong>等）；对于动植物来说，最重要的授时因子是阳光</p>
+<p>生物钟覆盖了大多数环境因素；为了保持时钟-环境的同步性，授时因子诱导时钟分子成分的浓度变化到与24小时周期的适当阶段一致的水平，这个过程被称为<strong>同化</strong>；在授时因子的存在下，动物就会<strong>适应昼夜节奏</strong>，并保持一个整整24小时的活动周期</p>
+<p><strong>剥离授时因子：自由运行</strong></p>
+<ul>
+<li>
+<p>就算是小的错误，也不能被长时间容忍；e.g. 24.5小时的生物钟周期会在三周内让生物的昼夜完全颠倒</p>
+</li>
+<li>
+<p>当哺乳动物完全失去授时因子时，它们会进入<strong>活动休息节律</strong>，通常时间<strong>超过或少于24小时</strong>，在这种情况下，它们的节律据说是自由的</p>
+</li>
+<li>
+<p>小鼠的free-running周期大约是23小时；仓鼠大约是24小时；人类大约是24.5~25.5小时</p>
+</li>
+</ul>
+<p>e.g. 人类生活在洞穴中时，会适应25小时左右的节律；但是几天到几周之后，人们会习惯30-36小时的节律，比如清醒20小时睡眠12小时</p>
+<p><strong>生物钟去同步化</strong>：</p>
+<ul>
+<li>在独立实验中，<strong>行为和生理学指标不总是能够持续同步</strong>，比如体温和睡眠会去同步化</li>
+<li>这种去同步化提示我们，<strong>身体中可能存在不止一种生物钟</strong></li>
+<li>对于去同步化来说，阳光刺激时最好的调节</li>
+</ul>
+<p><strong>生物钟的光敏机制：</strong></p>
+<p>哺乳动物在下丘脑中有一对很小的神经元簇，作为一个生物钟：<strong>视交叉上核（视交叉上核，SCN）</strong>，<strong>视网膜神经节细胞直接投射到SCN</strong>，即视网膜下丘脑束（视网膜-下丘脑束），它为SCN提供关于光的信息</p>
+<ul>
+<li>光可以改变血液传播的因素</li>
+<li>SCN是高度血管化的</li>
+</ul>
+<p><strong>褪黑素（Melatonin）：</strong></p>
+<ul>
+<li>褪黑素由松果体分泌</li>
+<li>褪黑素水平增加，人会感到困倦</li>
+<li>褪黑素可以作用于SCN上的受体，逐步推进生物钟</li>
+</ul>
+<p><strong>昼夜节律的定时系统：</strong></p>
+<p>视网膜神经节细胞的轴突直接突触在SCN神经元的树突上。<strong>来自视网膜的输入对于昼夜睡眠和清醒周期是必要和充分的</strong>。松果体对人类不重要，但褪黑激素很重要。</p>
+<ul>
+<li>当SCN收到电刺激时，节律用一种可以预测的方式改变</li>
+<li>移除SCN会废除昼夜节律</li>
+<li>在仓鼠上移植SCN会在2-4周内重建昼夜节律</li>
+<li>如果你有SCN，节律将永远回不来</li>
+</ul>
+<p><strong>产生昼夜节律的生物钟：</strong></p>
+<ul>
+<li>
+<p>光敏感输入通路--生物钟--输出通路</p>
+</li>
+<li>
+<p>有一条或多条感光的通路</p>
+</li>
+<li>
+<p>时钟的输出路径允许它根据时钟的时间来控制某些大脑和身体的功能</p>
+</li>
+<li>
+<p>与SCN同步的视网膜细胞<strong>不是视杆细胞，也不是视锥细胞</strong></p>
+</li>
+</ul>
+<p>e.g. 无眼小鼠不能用光线来重置它们的时钟，但视网膜完整、缺乏视杆细胞和视锥细胞的突变小鼠可以</p>
+<p><strong>SCN的输出信号：</strong></p>
+<ul>
+<li>
+<p>SCN的输出轴突主要支配下丘脑附近的部分，但也有一些进入中脑和间脑的其他部分</p>
+</li>
+<li>
+<p>因为几乎所有的SCN神经元都使用GABA（γ-氨基丁酸）作为它们主要的神经递质，<strong>推测它们可能抑制了它们所支配的神经元</strong></p>
+</li>
+<li>
+<p>除了轴突输出通路外，SCN神经元可能有节律地分泌<strong>肽神经调节加压素</strong></p>
+</li>
+<li>
+<p>体外培养的SCN细胞也表现出类似体内的节律变化，但是不能进入光-暗循环，类似动物是去授时因子</p>
+</li>
+<li>
+<p>SCN细胞通过动作电位（APs）将其节律性信息传递给大脑的其他部分，SCN细胞的放电率随昼夜节律而变化</p>
+</li>
+<li>
+<p>然而，<strong>APs对SCN神经元维持其节律是不必要的</strong></p>
+</li>
+</ul>
+<p>e.g. 当钠通道阻断剂河豚毒素（TTX，河豚毒）应用于SCN细胞时，它会阻断其APs，但对其代谢和生化功能的节律性没有影响；将河豚毒素移除后，APs会恢复；SCN APs就像时钟的指针；移除时钟的指针并不会阻止时钟工作，但它确实使读取时间非常困难</p>
+<ul>
+<li>SCN的节律是基于基因表达的分子循环，在果蝇中的分子信号如下图所示：</li>
+</ul>
+<p><img alt="image-20240609144117004" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240609144117004.png" /></p>
+<p><strong>节律的分子机制：</strong></p>
+<ul>
+<li>分子机制根据不同物种而异，但是整体上是一个<strong>负反馈通路</strong></li>
+<li><strong>时钟基因：</strong>时钟基因也可以产生mRNA，并翻译出蛋白质；经过一段时间后，<strong>新制造的蛋白质发送反馈</strong>，并以某种方式与转录机制相互作用，导致基因表达减少，少蛋白产生，基因表达再次增加，重新开始周期；这个周期大约是24小时，因此产生了昼夜节律</li>
+<li>必须有机制协调数千个细胞的细胞时钟，让SCN可以作为一个整体运行：来自视网膜的光信息每天都可以重置SCN神经元的时钟，但SCN神经元也可以直接相互交流</li>
+<li>此外，非常年轻的大鼠大脑的SCN能够很好地协调昼夜节律，甚至在它形成任何化学突触之前；除了经典的化学突触，它可能包括其他化学信号、缝隙连接或胶质细胞的参与</li>
+</ul>
+<p>与SCN相关的周期：Sleep-wake，皮肤温度、血液中荷尔蒙等浓度</p>
+<p>与SCN独立的周期：REM、内在血液温度、血液中的皮质醇、尿液中的钾</p>
+<p><strong>节律紊乱：</strong></p>
+<ul>
+<li><strong>癫痫--极端同步行为，许多神经元同时放电</strong>：局部或全局；破坏神经元间兴奋和抑制的平衡</li>
+<li>睡眠期失眠延迟</li>
+<li><strong>季节性抑郁：</strong>昼夜节律、睡眠和情绪状态之间的去同步化可能会导致抑郁<strong>，抑郁症几乎总是循环的，许多抑郁症患者比正常睡眠时间更早进入快速眼动睡眠；</strong>睡眠剥夺可以暂时缓解抑郁</li>
+<li>AD也与节律相关</li>
+</ul>
+<h2 id="chapter-23-2">Chapter 23-2. 神经内分泌系统<a class="headerlink" href="#chapter-23-2" title="Permanent link">&para;</a></h2>
+<p>内分泌系统不同于身体的大多数其他器官系统——不同的腺体在解剖学上并不是相连的；然而，它们确实形成了一个功能意义上的系统</p>
+<p><strong>神经系统与内分泌系统的对比：</strong></p>
+<ul>
+<li>神经系统负责短时间内任务的处理</li>
+<li>内分泌系统调节长期持续的代谢</li>
+<li>内分泌通讯是通过<strong>内分泌细胞释放激素</strong>：改变组织和器官的代谢活动，激素往往具有靶细胞</li>
+<li>旁分泌通信涉及到一个组织内的细胞之间的化学信使</li>
+</ul>
+<p><img alt="image-20240609150155886" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240609150155886.png" /></p>
+<p>人类的PVN和SON均包含约50000个神经元；几乎所有抗血管加压素能SON神经元投射到垂体后叶，从而影响血浆水平；在PVN中有3种不同类型的产生血管加压素的神经元。有些参与HPA轴，有些投射到神经垂体，有些投射到大脑的其他区域。</p>
+<p><strong>下丘脑：</strong></p>
+<ul>
+<li>神经内分泌小细胞(PvC)</li>
+<li>下丘脑促垂体区</li>
+<li>调节腺垂体内分泌活动</li>
+<li>神经内分泌大细胞(MgC)</li>
+<li>视上核、室旁核</li>
+<li>神经垂体激素－催产素、血管加压素</li>
+<li>神经垂体激素运载蛋白I, II (Neurophysin I, II)</li>
+<li>神经肽：脑啡肽、内啡肽、神经肽Y</li>
+</ul>
+<p><img alt="image-20240609150625669" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240609150625669.png" /></p>
+<p><strong>下丘脑激素的调节：</strong></p>
+<ul>
+<li>
+<p>神经调节</p>
+</li>
+<li>
+<p>神经递质：DA,NE,5-HT</p>
+</li>
+<li>
+<p>肽类物质：脑啡肽、<span class="arithmatex">\(\beta\)</span>​-内啡肽、神经降压素、P物质、血管活性肠肽（VIP）</p>
+</li>
+<li>
+<p>下级激素的反馈效应</p>
+</li>
+</ul>
+<p><img alt="image-20240609150746340" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240609150746340.png" /></p>
+<p><strong>脑下垂体、垂体</strong></p>
+<ul>
+<li>释放9中多肽类荷尔蒙</li>
+<li><strong>垂体前叶起源于上皮细胞；垂体后叶起源于神经组织</strong></li>
+<li>垂体前叶：分为<strong>远端部、中间部、结节部</strong></li>
+<li>在垂体前叶正中隆起（正中隆起），神经元通过开窗毛细血管释放调节因子：<strong>释放激素；抑制激素</strong></li>
+</ul>
+<p><strong>促黑素细胞激素（MSH）</strong></p>
+<ul>
+<li>可能在胎儿发育、儿童早期、妊娠或某些疾病期间由<strong>中间部分泌</strong></li>
+<li>功能是刺激黑色素细胞产生黑色素，使黑色素颗粒在细胞内分散；可能参与调节生长激素、醛固酮、促肾上腺皮质素释放激素、胰岛素、黄体生成素等分泌；调控MIF、MRF</li>
+<li>具有<span class="arithmatex">\(\alpha,\beta,\gamma-MSH\)</span>三种类型</li>
+</ul>
+<p><strong>Pro-opiomelanocortin (POMC,</strong>阿黑皮素原<strong>)</strong></p>
+<p>前体激素与241氨基酸残留从促皮质激素（促肾上腺皮质激素）垂体前叶，也合成的其他组织，如胎盘（胎盘），胃肠道（胃肠道）前体，β促脂质激素（促脂素）（β-LPH），γ（γ-LPH），肽-β内啡肽，n端肽，MSH（α - MSH ACTH，β-MSHγ-LPH和γ - MSH n肽）</p>
+<p><strong>后叶垂体和激素</strong></p>
+<p>• 包含下丘脑神经纤维的轴突
+   - 视上核 (SON)
+   - 视旁核 (PVN)
+   - 抗利尿激素 (ADH = 血管加压素, AVP)
+   - 催产素 (OXT)
+   - 神经垂体激素运载蛋白 (NP)</p>
+<p><strong>抗利尿激素 (ADH)</strong></p>
+<ul>
+<li>减少肾脏的水分损失，升高血压</li>
+</ul>
+<p><strong>催产素 (OXT)</strong>
+- 刺激乳腺中的收缩细胞，刺激子宫中的平滑肌细胞</p>
+<p><strong>运输</strong>
+- NP-1 绑定 OXT
+- NP-2 绑定 ADH（VP）
+- 在神经纤维的轴浆中运输</p>
+<p><strong>释放</strong>
+- 通过外排作用（Exocytosis）</p>
+<p><strong>ADH 分泌的调节</strong></p>
+<ul>
+<li><strong>增加渗透压（↑ osmolality）→ 增加分泌（↑ secretion）</strong></li>
+<li>
+<p>增加细胞外液体<strong>渗透压会减少</strong>位于下丘脑中的渗透感受器的体积，从而<strong>刺激ADH的分泌</strong>。</p>
+</li>
+<li>
+<p><strong>增加血容量（↑ blood volume）→ 减少分泌（↓ secretion）</strong></p>
+</li>
+<li>ADH的释放也受到心血管反射的控制，响应血容量（心房感受器）/压力的变化。</li>
+</ul>
+<p><strong>催产素 (Oxytocin, OXT)</strong></p>
+<p><strong>合成</strong>
+- 视上核 (SON)
+- 视旁核 (PVN)</p>
+<p><strong>分泌</strong>
+- 分娩
+- 哺乳
+- 性交</p>
+<p><strong>功能</strong>
+- <strong>子宫收缩</strong>
+  - 引发分娩
+  - 减少产后出血
+- <strong>乳房肌上皮细胞收缩</strong>
+  - 刺激乳汁“泌出”</p>
+<p><strong>调节</strong>
+- <strong>神经内分泌反射（乳汁射出反射）</strong>
+  - 哺乳动作（suckling）
+- <strong>正反馈</strong>
+- <strong>急性压力</strong>
+  - 抑制催产素分泌
+  - 性激素水平（例如雌激素、睾酮等）对催产素分泌的影响</p>
+<p><strong>下丘脑控制内分泌的三种方法：</strong></p>
+<ul>
+<li><strong>控制肾上腺髓质的交感输出</strong></li>
+<li><strong>调节激素的分泌以控制垂体前叶的活动</strong></li>
+<li><strong>抗利尿激素 (ADH) 和催产素的生成</strong></li>
+</ul>
+<h2 id="chapter-27">Chapter 27. 情绪情感的神经生物学机制<a class="headerlink" href="#chapter-27" title="Permanent link">&para;</a></h2>
+<h3 id="271">27.1神经疾病概述：脑的错误信息处理<a class="headerlink" href="#271" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>神经疾病：</strong>神经系统器质性病变引起神经系统生理功能障碍</li>
+<li><strong>精神疾病：</strong>在各种在各种<strong>生物学、心理学以及社会环境因素影响下</strong>，大脑功能失调或紊乱，<strong>导致认知、情感、意志和行为等精神活动出现不同程度障碍为临床表现</strong>的一组疾病</li>
+</ul>
+<p>感觉：除了视觉、听觉、触觉、嗅觉和味觉外，还有痛觉、压觉、温度觉、<strong>平衡觉（本体觉）</strong>、内脏感觉等等</p>
+<p><strong>感觉和知觉：</strong></p>
+<ul>
+<li>
+<p>感觉：人脑对当前事物<strong>个别属性</strong>的反映</p>
+</li>
+<li>
+<p>知觉：人脑对直接作用与感觉器官的当前客观事物的<strong>整体属性</strong>的反映</p>
+</li>
+</ul>
+<p><img alt="image-20240610143537465" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240610143537465.png" /></p>
+<p><strong>情感、情绪和感情：</strong></p>
+<ul>
+<li><strong>情绪(emotion)：</strong>对情绪激发对象是否符合自身需要的反应，<strong>倾向于个体基本需求欲望上的态度体验</strong>(与生理需要相联系,人和动物都有)；</li>
+<li>情感：<strong>情绪引发的内在体验</strong></li>
+<li>感情：对于某一具体事物所产生的情感，<strong>是某一具体事物的价值关系在人的头脑中的主观反映</strong>，倾向于社会需求欲望上的态度体验（与精神需要和社会需要相联系，<strong>是人类特有的</strong>，是一种<strong>高级、复杂的体验</strong>）</li>
+</ul>
+<p>情绪本身非常复杂，一把把情感中像愤怒等这<strong>种短暂的、急剧的发生的强烈的情感称为情绪</strong>；情绪这个概念可以适用于人类也可以适用于动物，<strong>情感这个概念只适用于人类</strong></p>
+<p><strong>情绪的分裂：</strong></p>
+<ul>
+<li>基本情绪：害怕、愤怒、高兴、憎恶、悲伤</li>
+<li>复杂情绪：焦虑、羞耻、自豪、憎恨、同情等</li>
+</ul>
+<p><strong>感知觉障碍：</strong></p>
+<ul>
+<li>
+<p><strong>感觉障碍：</strong>精神正常的人由于某些原因，使某个<strong>感觉器官或传导感觉的神经受到损伤</strong>，就会出现各种感觉障碍。如视神经有病变会影响视力，称视力障碍；听神经受损伤出现耳聋，称听力障碍；<strong>精神医学中的感觉障碍：是指在感觉神经和感觉器官都没有病变的情况下，病人却出现各种感觉异常</strong></p>
+</li>
+<li>
+<p><strong>知觉障碍：</strong></p>
+</li>
+<li>
+<p><strong>错觉：</strong>这是一种<strong>歪曲的知觉</strong>，即把实际存在的事物歪曲为与实际完全不符合的另一事物。对此种<strong>完全不符合刺激本身特征的失真的或扭曲事实的知觉经验</strong>，称为错觉(illusion)</p>
+</li>
+<li>幻觉：虚幻的知觉；幻觉（hallucination）与错觉不同，它是在<strong>没有相应的外界客观事物直接作用下发生的不真实感知</strong>。幻觉具有与真实知觉类似的特点，但它是虚幻的。诸如根本没有声音存在，病人却听到谩骂声；凭空看到可怕的人头、动物等</li>
+</ul>
+<p>我们不可能单纯靠感官来获得对世界的认识，因为在很多情况下，当我们意识到感觉信息时，<strong>它已经与情感紧紧交织在一起</strong></p>
+<p><strong>神经病学大多涉及感觉、运动和认知问题；精神病学大多涉及情感和社会问题</strong></p>
+<ul>
+<li>常见的精神疾病：精神分裂症、抑郁症、情感性精神障碍灯</li>
+<li>不同类型的精神疾病具有不同的临床表现</li>
+<li>神经疾病和精神疾病的判断标准是是否有<strong>器质性病变</strong></li>
+</ul>
+<p><strong>情绪的中枢神经定位：</strong></p>
+<p><strong>边缘系统（Limbic System）：</strong><strong>高等脊椎动物</strong>中枢神经系统中由<strong>古皮层、旧皮层演化成的大脑组织</strong>以及和这些组织有<strong>密切联系的神经结构和核团</strong>的总称（它不<strong>是一个独立的纯解剖学范畴的神经通路</strong>，而是一个在<strong>功能上密切相关</strong>的包括许多神经核及皮质区的系统）</p>
+<ul>
+<li><strong>重要组成：</strong>在大脑半球内侧面，属于边缘系统的皮质形成了一个环形的皮质区，包括<strong>海马结构、海马旁回及内嗅区、齿状回、扣带回、乳头体以及杏仁核</strong>；与脑其他结构如<strong>新皮层、丘脑、脑干有广泛的联系</strong></li>
+<li><strong>功能：</strong></li>
+<li>调节情绪反应：影响或产生情绪</li>
+<li>调节中枢神经系统内的感觉信息</li>
+<li>参与内脏活动</li>
+<li>参与学习与记忆功能的调节</li>
+<li>与觉醒、睡眠功能有关</li>
+</ul>
+<blockquote>
+<p>e.g. 双侧颞叶切除术出现症状：</p>
+<ul>
+<li>视觉失认症</li>
+<li>冷漠</li>
+<li>口识倾向</li>
+<li>自残型性欲旺盛</li>
+<li>失语失忆</li>
+</ul>
+</blockquote>
+<p><strong>恐惧与焦虑：</strong></p>
+<p><strong>杏仁核：</strong>产生、识别和调节情绪，是控制学习和记忆的脑部组织</p>
+<ul>
+<li>习得性恐惧</li>
+</ul>
+<blockquote>
+<p>e.g. 一朝被蛇咬十年怕井绳</p>
+</blockquote>
+<p><img alt="image-20240610144938020" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240610144938020.png" /></p>
+<p><strong>愤怒与攻击：</strong></p>
+<p><strong>下丘脑刺激：愤怒</strong></p>
+<ul>
+<li>情感性攻击：下丘脑内侧</li>
+<li>掠夺性攻击：下丘脑外侧</li>
+</ul>
+<blockquote>
+<p>下丘脑(hypothalamus)位于丘脑沟以下，形成第三脑室下部的侧壁和底部，是植物神经的皮质下最高枢，边缘系统、网状结构的重要联系点，垂体内分泌系统的激发处。<strong>主要包括乳头体和结节部、视上部，调节体温、摄食、水平衡、血糖和内分泌腺活动等重要的生理功能，是情绪及动机性行为产生的重要脑结构</strong></p>
+</blockquote>
+<ul>
+<li>5-HT和攻击：更多的攻击与更低的5-HT活动相关，<strong>5-HT水平较低的人群更容易发生抑郁、冲动行为、酗酒、自杀、攻击及暴力行为</strong></li>
+</ul>
+<p><strong>强化与奖赏：</strong></p>
+<p>在可卡因自我给药过程中，<strong>多巴胺（DA）在伏隔核（NAc，伏隔核）中被释放</strong></p>
+<p><img alt="image-20240610145427782" src="C:\Users\Apple\AppData\Roaming\Typora\typora-user-images\image-20240610145427782.png" /></p>
+<p>多巴胺能神经通路是大脑奖赏系统的重要组成，<strong>主要靶点包括：额叶皮质区，边缘皮质(颞叶)，纹状体(尾状体,壳核,伏隔核NAc)，杏仁核和海马.</strong></p>
+<h3 id="272">27.2 精神分裂症及其神经生物学基础<a class="headerlink" href="#272" title="Permanent link">&para;</a></h3>
+<p><strong>精神分裂症：</strong>是一组<strong>病因未明</strong>的慢性疾病，多在青壮年缓慢或亚急性起病，临床上往往表现为症状各异的综合征，涉及<strong>感知觉、思维、情感和行为</strong>等多方面的障碍以及精神活动的不协调</p>
+<p>患者<strong>一般意识清楚，智能基本正常</strong>，但部分患者在疾病过程中会出现认知功能的损害。病程一般迁延，呈反复发作、加重或恶化，部分患者最终出现衰退和精神残疾，但有的患者经过药物治疗与心理治疗后可保持痊愈或基本痊愈状态</p>
+<p>精神分裂患者的自杀率显著高于一般人</p>
+<p><strong>精神分裂症的诊断和鉴别诊断</strong>：</p>
+<ul>
+<li>临床症状：主要包括<strong>感知觉障碍、思维障碍、情感障碍、意志和行为障碍和认知功能障碍</strong></li>
+<li>阳性：妄想、<strong>幻觉</strong></li>
+<li>阴性：情感表达降低、语言贫乏</li>
+<li>诊断：国外常用的诊断标准包括美国的疾病分类和诊断统计手册DSM-Ⅳ-TR、WHO的国际疾病分类手册ICD-10，国内常用的诊断标准为中国精神障碍分类与诊断标准CCMD-3</li>
+<li><strong>鉴别诊断：</strong>精神分裂症通常需要和<strong>器质性疾病所致精神障碍</strong>、药物或精神活性物质所致精神障碍、心境障碍、偏执性精神障碍、强迫性神经症等疾病进行鉴别</li>
+</ul>
+<p><strong>病因和发病机制：</strong></p>
+<ul>
+<li>遗传因素</li>
+<li>神经生化、神经发育、脑结构变化等神经生物学因素</li>
+<li>子宫内感染与产伤</li>
+<li>心理因素</li>
+<li>社会因素</li>
+</ul>
+<p><strong>精神分裂症的神经生物学基础</strong>：</p>
+<ul>
+<li>
+<p>MRI显示的脑形态发生改变：<strong>精神分裂症患者侧脑室的增大</strong></p>
+</li>
+<li>
+<p>分子病理学：</p>
+</li>
+<li>DA假说</li>
+<li>5-HT假说</li>
+<li>谷氨酸假说</li>
+<li>GABA假说</li>
+</ul>
+<p><strong>多巴胺假说：</strong></p>
+<ul>
+<li>中枢DA功能亢进：</li>
+<li>苯丙胺：增加DA释放，仅能解释阳性症状为主的病人</li>
+<li>氯丙嗪：DA受体阻断剂，减轻阳性症状</li>
+<li>阴性症状：DA功能底下相关</li>
+</ul>
+<p><strong>5-HT假说</strong>：</p>
+<p>5-HT(血清素)是一种能产生愉悦情绪的信使</p>
+<p><strong>5-HT能系统是大脑中重要的弥散调制系统</strong>，广泛投射至中枢神经系统的每一主要亚结构。投射分布至<strong>大脑皮质、边缘系统（海马、杏仁核）、基底神经节、许多下丘脑和丘脑区域、脑干的许多区域、小脑和脊髓等</strong></p>
+<ul>
+<li>5-HT2A 受体可能与情感/行为调控及调节DA释放有关</li>
+<li><strong>5-HT2A受体的拮抗能激活</strong>中脑皮质DA通路<strong>，</strong>改善阴性症状**和认知功能</li>
+<li>非典型抗精神病药氯氮平、利培酮、奥氮平等对中枢<strong>DA受体有拮抗作用</strong>，还对5-HT2A受体有很强的拮抗作用</li>
+</ul>
+<p><strong>谷氨酸假说：</strong></p>
+<ul>
+<li>
+<p>PCP(Phencyclidine，Angel Dust，天使粉)是<strong>谷氨酸的非竞争性拮抗剂</strong>，可产生类似精神分裂症的症状</p>
+</li>
+<li>
+<p>PCP主要作用部位与NMDA受体，而NMDA正好是谷氨酸的主要受体</p>
+</li>
+<li>
+<p>动物试验表明，PCP所致的精神症状是由于<span class="arithmatex">\(Ca^{2+}\)</span>​的释放引起</p>
+</li>
+<li>
+<p>DA与谷氨酸系统不平衡</p>
+</li>
+<li>DA系统功能强于谷氨酸系统功能，丘脑信息过滤作用减少，导致阳性症状</li>
+</ul>
+<blockquote>
+<p>e.g. NMDA受体数量减少的突变小鼠表现出明显的社交退缩</p>
+</blockquote>
+<p><strong>GABA假说</strong>:</p>
+<p>精神分裂症患者<strong>背外侧前额叶皮质</strong>中神经营养因子和<strong>GABA相关基因的表达减少</strong></p>
+<p><strong>整个大脑的活动过程：</strong>大脑通过感觉器官接收外界的信息，然后感觉器官把信息传到<strong>大脑皮层</strong>，大脑皮层再把外界信息进行整合<strong>传到额叶进行处理</strong>然后再到<strong>边缘系统</strong>，然后让我们产生<strong>情绪情感</strong>，然后把信息处理之后<strong>再传回到皮层，让我们产生各种各样的行为</strong></p>
+<h3 id="273-depression">27.3  抑郁症(Depression)及其神经生物学基础<a class="headerlink" href="#273-depression" title="Permanent link">&para;</a></h3>
+<p><strong>临床表现、诊断和鉴别诊断</strong>：</p>
+<ul>
+<li><strong>典型表现</strong>：</li>
+<li><strong>核心症状：</strong>心境低落、兴趣减退、乐趣丧失、无趣、无欲、无助、无能</li>
+<li><strong>心理症状：</strong>焦虑、自责自罪、精神病性症状、记忆力下降，认知扭曲自杀观念和行为、精神运动性抑制</li>
+<li><strong>生物症状：</strong><strong>以早醒为特征的睡眠紊乱、性欲下降、食欲下降、体重下降、精力丧失</strong>；晨重晚轻的节律变化；特异性的躯体症状：肠胃道功能紊乱症状、尿频、胸闷、气短等</li>
+<li><strong>诊断</strong>应结合病史、病程特点、临床症状、体格检查和实验室检查等进行综合考虑；<strong>诊断标准(ICD-10)：</strong>在完善精神检查以及信息收集后，依据诊断标准进行诊断和鉴别</li>
+<li>抑郁症和双向情感障碍：<strong>区别是有无狂躁</strong></li>
+</ul>
+<p><strong>发病因素：</strong></p>
+<ul>
+<li>遗传因素：具有一定的家族遗传倾向</li>
+<li>血缘越近，患病概率越高</li>
+<li>早发遗传现象</li>
+<li>重度抑郁的遗传度为40%左右</li>
+<li>社会文化因素</li>
+<li>社会压力</li>
+<li>贫困、少数民族、缺乏社会婚姻支持</li>
+<li>急性生活压力</li>
+</ul>
+<p><strong>抑郁的神经生物学基础：</strong></p>
+<ul>
+<li>抑郁症与中枢神经系统组织形态结构的改变</li>
+<li><strong>素质-应激假说</strong></li>
+<li><strong>抑郁症与中枢单胺类神经递质和相应受体功能的变化</strong></li>
+<li>抑郁症与神经营养物质</li>
+</ul>
+<p><strong>素质-应激假说：</strong></p>
+<ul>
+<li>素质：对每一疾病的易感性</li>
+<li>应激：是对威胁性刺激的一组相互协同的反应，又称为应激反应</li>
+<li>HPA轴：<strong>下丘脑-垂体-肾上腺皮质轴</strong>，参与控制应激的反应，并调节许多身体活动，如消化，免疫系统，心情和情绪，性行为，以及能量贮存和消耗。</li>
+<li>下丘脑释放CRH，作用于垂体释放ACTH</li>
+<li>ACTH作用于肾上腺皮质，合成糖皮质激素</li>
+<li>糖皮质激素反馈作用于下丘脑和垂体</li>
+<li><strong>CRH的提高和对HPA系统反馈抑制的减弱</strong>，抑郁症患者脑髓液的CRH浓度高，血液中皮质醇浓度高，海马皮质激素受体数量减少</li>
+</ul>
+<p><strong>单胺假说：</strong></p>
+<ul>
+<li>
+<p>去甲肾上腺素（NE）和5-羟色胺与抑郁的病因有关</p>
+</li>
+<li>
+<p>心境是NE和5-HT系统相互作用的结果</p>
+</li>
+<li>
+<p>利血平：控制高血压，产生抑郁</p>
+</li>
+<li>
+<p>异烟肼：抑制抑郁，单胺氧化酶抑制剂，<strong>这种酶可以分解茶酚胺和5-羟色胺引起情绪高涨</strong></p>
+</li>
+<li>
+<p>5-羟色胺调控海马皮质激素受体从而参与抑郁症发病</p>
+</li>
+</ul>
+<p><strong>抑郁症的治疗</strong>：</p>
+<ul>
+<li>心理精神治疗：认知疗法（教育阶段、认知练习、行为假设检验）</li>
+<li>生物疗法：</li>
+<li>抗抑郁药物如TCA，单胺氧化酶抑制剂</li>
+</ul>
+<h3 id="274-anxiety-disorder">27.4 焦虑症(Anxiety disorder)及其神经生物学基础<a class="headerlink" href="#274-anxiety-disorder" title="Permanent link">&para;</a></h3>
+<p><strong>焦虑：指一种对尚未发生的事情，怀有一种忐忑不安的不愉快的情绪体验</strong>。具体来说：是指在缺乏相应的客观因素情况下，患者表现为顾虑重重，紧张恐惧，以致搓手顿足，似有大祸临头，惶惶不可终日，伴有心悸、出汗、手抖，尿频等自主神经功能紊乱症状。</p>
+<p><strong>焦虑</strong>是一种对<strong>恐惧</strong>的保护性反应，只有焦虑过度时才成为一个医学问题</p>
+<p><strong>广泛性焦虑症（GAD）：</strong></p>
+<ul>
+<li>概念：GAD又称<strong>慢性焦虑症</strong>，是焦虑症中最常见的表现形式。<strong>以持续的、全面的、过度的焦虑感为特征</strong>，这种焦虑与周围任何特定的情境没有关系。</li>
+<li><strong>临床表现：</strong>分为精神焦虑、躯体焦虑、觉醒度提高及其他症状</li>
+</ul>
+<p><strong>惊恐障碍(PD)</strong>：</p>
+<ul>
+<li><strong>概念：</strong>PD简称<strong>惊恐症</strong>，又称急性焦虑症。是以<strong>反复出现显著的心悸，出汗、震颤等自主神经症状</strong>，伴以强烈的<strong>濒死感或失控感</strong>，害怕产生不幸后果的惊恐发作为特征的一种<strong>急性焦虑障碍</strong></li>
+<li><strong>特点：</strong><strong>起止均迅速，持续几分钟或更久一些</strong>。常伴有<strong>回避行为</strong>，惊恐发作后会持续担心再次发作（预期焦虑）</li>
+</ul>
+<blockquote>
+<p>按照等级诊断原则，达到抑郁障碍诊断标准优先诊断抑郁障碍；</p>
+</blockquote>
+<p><strong>神经生物学机制：</strong></p>
+<ul>
+<li>单胺嘞假说：NE, 5-HT</li>
+<li>GABA假说</li>
+</ul>
+<p><strong>焦虑症治疗：</strong></p>
+<ul>
+<li>精神治疗</li>
+<li>认知治疗</li>
+<li>行为治疗</li>
+<li>药物治疗</li>
+<li>苯二氮卓类--安定</li>
+<li>乙醇--提高GABA活动</li>
+<li>5-HT选择性再摄取抑制剂(SSRIs)</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 A.I.B.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/AIB001" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://X.com" target="_blank" rel="noopener" title="X.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/zhaoqi-shi-9800a6345/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.path", "toc.integrate", "search.highlight", "search.suggest", "content.code.copy", "content.code.annotate", "header.autohide"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
