@@ -389,6 +389,7 @@ nav:
       - Condensates:
           # - research/condensates/index.md
           - Droplet Formation Dynamics: research/condensates/FUS_PLD_Droplet.md
+          - CGAnalysis: research/condensates/cganalysis.md
       - Other Research:
           # - Intro: research/others/index.md
           - THZ1 Nano Drug Delivery: research/others/collaborative.md
@@ -420,6 +421,6 @@ nav:
           # - Mathematics: learning/others/mathematics.md
   - Life:
       - life/index.md
-      - Blog: life/blog.md
-      - Travel: life/travel.md
-      - Reading: life/reading.md
+      # - Blog: life/blog.md
+      # - Travel: life/travel.md
+      # - Reading: life/reading.md
