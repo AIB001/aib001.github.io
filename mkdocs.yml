@@ -381,7 +381,7 @@ plugins:
 nav:
   - Home: index.md
   - Academic Research:
-      - research/index.md
+      # - research/index.md
       - Small Molecules:
           # - research/small-molecules/index.md
           - LigTraj: research/small-molecules/LigTraj_Software_Database.md
@@ -397,6 +397,7 @@ nav:
           - GROMACS Tutorial: research/tools/GROMACS_protocol.md
           - NAMD Tutorial: research/tools/NAMD_CDK7example.md
           - NAMD Parametering new residue: research/tools/NAMD_Parametering_new_residue.md
+          - Picture Style: research/tools/picture_style.md
           # - NAMD : research/tools/NAMD_ProteinLig_Batch_Modeling.md
       - Publications: research/publications.md
   - Learning:

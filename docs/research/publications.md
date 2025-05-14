@@ -19,7 +19,7 @@
 <div class="publication-card">
   <h3 class="pub-title">A comprehensive webserver to streamline FEP simulation setup
 in drug discovery</h3>
-  <p class="pub-authors"><b>Zhaoqi Shi</b>, Xufan Gao, *Ruhong Zhou.</p>
+  <p class="pub-authors"> Xufan Gao, <b>Zhaoqi Shi</b>, *Ruhong Zhou.</p>
   <p class="pub-journal">American Chemical Society (ACS) Conference, 2024 Fall</p>
   <div class="pub-abstract">
     FEBuilder is a tool to streamline the process of modeling FEP calculation.
