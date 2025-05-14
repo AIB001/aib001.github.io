@@ -274,6 +274,12 @@
 #       - Travel: life/travel.md
 #       - Reading: life/reading.md
 
+# 添加以下内容到您的配置文件中
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 # Project information
 site_name: "AIB001's Homepage"
 site_url:  https://aib001.github.io/
@@ -405,7 +411,7 @@ nav:
           # - learning/physics/index.md
           - Computational Physics: learning/physics/Computational_Physics_forZJU.md
           - Equilibrium Statistical Physics: learning/physics/Equilibrium_Statistical_Physics.md
-          - Solid State Physics: learning/physics/solid-state.md
+          # - Solid State Physics: learning/physics/solid-state.md
       - Computational Biophysics & Others:
           # - learning/others/index.md
           - Free Energy Pertubation: learning/others/Principle_of_FEP.md
