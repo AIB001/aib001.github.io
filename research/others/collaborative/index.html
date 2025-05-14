@@ -12,9 +12,13 @@
         <meta name="author" content="A.I.B.">
       
       
-        <link rel="canonical" href="https://aib001.github.io/research/tools/NAMD_ProteinLig_Batch_Modeling/">
+        <link rel="canonical" href="https://aib001.github.io/research/others/collaborative/">
       
       
+        <link rel="prev" href="../../condensates/FUS_PLD_Droplet/">
+      
+      
+        <link rel="next" href="../../tools/GROMACS_protocol/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -22,7 +26,7 @@
     
     
       
-        <title>Protein-Ligands 批量建模 - AIB001's Homepage</title>
+        <title>THZ1 Nano Drug Delivery - AIB001's Homepage</title>
       
     
     
@@ -76,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#protein-ligands" class="md-skip">
+        <a href="#thz1-nano-drug-delivery" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Protein-Ligands 批量建模
+              THZ1 Nano Drug Delivery
             
           </span>
         </div>
@@ -240,10 +244,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../../" class="md-tabs__link">
           
   
@@ -375,6 +381,8 @@
       
   
   
+    
+  
   
   
     
@@ -398,14 +406,17 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <div class="md-nav__link md-nav__container">
@@ -422,13 +433,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Academic Research
@@ -618,8 +629,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -632,11 +645,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" checked>
         
           
           <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
@@ -652,7 +665,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
             Other Research
@@ -663,10 +676,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../others/collaborative/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -677,6 +699,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -746,7 +769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../GROMACS_protocol/" class="md-nav__link">
+      <a href="../../tools/GROMACS_protocol/" class="md-nav__link">
         
   
   
@@ -769,7 +792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../NAMD_CDK7example/" class="md-nav__link">
+      <a href="../../tools/NAMD_CDK7example/" class="md-nav__link">
         
   
   
@@ -792,7 +815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../NAMD_Parametering_new_residue/" class="md-nav__link">
+      <a href="../../tools/NAMD_Parametering_new_residue/" class="md-nav__link">
         
   
   
@@ -1434,163 +1457,7 @@
 
 
 
-<h1 id="protein-ligands">Protein-Ligands 批量建模<a class="headerlink" href="#protein-ligands" title="Permanent link">&para;</a></h1>
-<h2 id="1">1.预处理文件夹构成<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
-<h3 id="11">1.1 文件夹构成<a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
-<blockquote>
-<ul>
-<li>
-<p>主文件夹：<code>addatomname</code></p>
-</li>
-<li>
-<p>第一部分：<code>pre-mol2 file</code></p>
-</li>
-</ul>
-<blockquote>
-<p><code>pre-mol2file_1.mol2</code></p>
-<p><code>pre-mol2file_1.mol2</code></p>
-<p>......</p>
-<p><code>pre-mol2filen_n.mol2</code></p>
-</blockquote>
-<ul>
-<li>第二部分：处理脚本</li>
-</ul>
-<blockquote>
-<p><code>addatomname.py</code>：利用<code>rdkit</code>给转化得到的<code>.pdb</code>文件加氢、编号（<code>Atom name</code>）</p>
-<p><code>addatomname.sh</code>：调用<code>openbabel</code>，先将<code>pre-mol2file</code>转化为<code>.pdb</code>文件，然后调用<code>addatomname.py</code>处理<code>pdb</code>文件，最后将编号、加氢后的<code>pdb</code>文件转化会<code>mol2</code>文件，并输出到<code>mol2_re</code>文件夹底下</p>
-</blockquote>
-<ul>
-<li><code>mol2_re</code>文件夹：用于存放添加原子编号修正后的<code>mol2</code>文件，可以直接变成建模的主文件夹，也可以单独移出</li>
-</ul>
-</blockquote>
-<h3 id="12-addatomnamesh">1.2 <code>addatomname.sh</code><a class="headerlink" href="#12-addatomnamesh" title="Permanent link">&para;</a></h3>
-<div class="language-shell highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="ch">#!/bin/bash</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="c1"># conda activate numpy</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>mkdir<span class="w"> </span>mol2_re<span class="w"> </span><span class="c1"># if mol2_re doesn&#39;t exist</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="nv">files</span><span class="o">=</span><span class="k">$(</span>ls<span class="w"> </span>*.mol2<span class="k">)</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="k">for</span><span class="w"> </span>file<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="nv">$files</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="nv">filename</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">file</span><span class="p">%.*</span><span class="si">}</span><span class="s2">&quot;</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="nv">$filename</span><span class="w"> </span><span class="s1">&#39;2333333333&#39;</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span>obabel<span class="w"> </span>-imol2<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">filename</span><span class="si">}</span><span class="s2">.mol2&quot;</span><span class="w"> </span>-opdb<span class="w"> </span>-O<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">filename</span><span class="si">}</span><span class="s2">.pdb&quot;</span><span class="w"> </span>-h
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span>mv<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">filename</span><span class="si">}</span><span class="s2">.pdb&quot;</span><span class="w"> </span>mol2_re
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="nb">cd</span><span class="w"> </span>mol2_re
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span>python<span class="w"> </span>../addatomnameindex.py<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">filename</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="s2">&quot;/mnt/c/Users/Apple/Desktop/addatomname&quot;</span><span class="w"> </span><span class="c1"># change to real path</span>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span>obabel<span class="w"> </span>-ipdb<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">filename</span><span class="si">}</span><span class="s2">_re.pdb&quot;</span><span class="w"> </span>-omol2<span class="w"> </span>-O<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">filename</span><span class="si">}</span><span class="s2">.mol2&quot;</span><span class="w"> </span>-h
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="si">${</span><span class="nv">filename</span><span class="si">}</span><span class="w"> </span>add<span class="w"> </span>atom<span class="w"> </span>name<span class="w"> </span>successfully!
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">    </span>rm<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">filename</span><span class="si">}</span><span class="s2">.pdb&quot;</span>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span>rm<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">filename</span><span class="si">}</span><span class="s2">_re.pdb&quot;</span>
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">    </span><span class="nb">cd</span><span class="w"> </span>..
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="k">done</span>
-</span></code></pre></div>
-<h2 id="2">2. 批量建模文件夹构成<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
-<h3 id="21">2.1 文件夹构成<a class="headerlink" href="#21" title="Permanent link">&para;</a></h3>
-<blockquote>
-<ul>
-<li>
-<p>主文件夹：<code>Batch_Modeling</code></p>
-</li>
-<li>
-<p>第一部分：<code>mol2 file</code></p>
-<blockquote>
-<p><code>mol2file_1.mol2</code></p>
-<p><code>mol2file_1.mol2</code></p>
-<p>......</p>
-<p><code>mol2filen_n.mol2</code></p>
-</blockquote>
-</li>
-<li>
-<p>第二部分：处理脚本</p>
-<blockquote>
-<p><code>my_paracharm.py</code>：动态网页爬虫，用于从<span class="arithmatex">\(cgenff\)</span>官网获取小分子拓扑-力场参数的<code>.str</code>文件</p>
-<p><code>strdivid.py</code>：将获取的<code>.str</code>文件分割成<code>.rtf</code>拓扑文件和<code>.prm</code>力场参数文件（可以不用）</p>
-<p><code>check.py</code>：检查是否正常生成了力场文件</p>
-<p><code>residuetype_LP.py</code>：用于修正生成力场文件中的<code>Long-Pairs</code>孤对电子以及修正<code>RESI UNK</code></p>
-<p><code>ffgen.sh</code>：批量获取力场，在同一目录下建立文件夹，在文件夹中保存拓扑-力场参数文件；分割拓扑-力场参数文件</p>
-<p><code>vmdmodel.sh</code>：检查完毕后建模</p>
-</blockquote>
-</li>
-<li>
-<p>第三部分：建模文件子文件夹<code>system_build</code></p>
-<blockquote>
-<ul>
-<li>建模所需蛋白质文件<code>.pdb file</code></li>
-<li><code>psfgen.tcl</code>：vmd建模<code>tcl</code>脚本</li>
-<li>建模需要调用的拓扑文件（<code>.str</code>,<code>.rtf</code>文件）</li>
-</ul>
-</blockquote>
-</li>
-</ul>
-</blockquote>
-<h3 id="22-ffgenshvmdmodelsh">2.2 <code>ffgen.sh</code>&amp;<code>vmdmodel.sh</code><a class="headerlink" href="#22-ffgenshvmdmodelsh" title="Permanent link">&para;</a></h3>
-<h4 id="221-ffgensh">2.2.1 <code>ffgen.sh</code><a class="headerlink" href="#221-ffgensh" title="Permanent link">&para;</a></h4>
-<div class="language-shell highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="ch">#!/bin/bash</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="c1"># conda activate numpy</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="nv">files</span><span class="o">=</span><span class="k">$(</span>ls<span class="w"> </span>*.mol2<span class="k">)</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="k">for</span><span class="w"> </span>file<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="nv">$files</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span>mkdir<span class="w"> </span>temp
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="nv">filename</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">file</span><span class="p">%.*</span><span class="si">}</span><span class="s2">&quot;</span>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span>mv<span class="w"> </span>temp<span class="w"> </span><span class="nv">$filename</span>
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="nv">$filename</span><span class="w"> </span><span class="s1">&#39;2333333333&#39;</span>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span>cp<span class="w"> </span><span class="nv">$file</span><span class="w"> </span><span class="nv">$filename</span>
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="nb">cd</span><span class="w"> </span><span class="nv">$filename</span>
-</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="c1"># python ../my_paramchem.py -u ****** -p ****** -c $file # change your personal account</span>
-</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="c1"># python ../my_paramchem.py -u ****** -p ****** -c $file</span>
-</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;ff file of&quot;</span><span class="w"> </span><span class="nv">$filename</span><span class="w"> </span>has<span class="w"> </span>generated<span class="w"> </span>successfully<span class="w"> </span>
-</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">    </span>python<span class="w"> </span>../strdivid.py<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span>
-</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">    </span><span class="nv">pdbname</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">filename</span><span class="si">}</span><span class="s2">.pdb&quot;</span>
-</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">    </span>obabel<span class="w"> </span>-imol2<span class="w"> </span><span class="nv">$filename</span>.str.mol2<span class="w"> </span>-opdb<span class="w"> </span>-O<span class="w"> </span><span class="nv">$pdbname</span>
-</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">    </span>vmd<span class="w"> </span>-dispdev<span class="w"> </span>text<span class="w"> </span>-e<span class="w"> </span>../system_build/psfgen.tcl<span class="w"> </span>-args<span class="w"> </span><span class="nv">$filename</span>
-</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">    </span><span class="nb">cd</span><span class="w"> </span>..
-</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="k">done</span>
-</span></code></pre></div>
-<h4 id="222-vmdmodelsh">2.2.2 <code>vmdmodel.sh</code><a class="headerlink" href="#222-vmdmodelsh" title="Permanent link">&para;</a></h4>
-<p>检查力场文件、拓扑文件无误后调用，在此之前最好先注释主脚本，用<code>test</code>部分测试一个建模是否顺利</p>
-<div class="language-shell highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="ch">#!/bin/bash</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="c1"># conda activate numpy</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="nv">files</span><span class="o">=</span><span class="k">$(</span>ls<span class="w"> </span>*.mol2<span class="k">)</span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="k">for</span><span class="w"> </span>file<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="nv">$files</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="nv">filename</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">file</span><span class="p">%.*</span><span class="si">}</span><span class="s2">&quot;</span>
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span>python<span class="w"> </span>residuetype_LP.py<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="nv">$filename</span>
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="nb">cd</span><span class="w"> </span><span class="nv">$filename</span>
-</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">    </span>vmd<span class="w"> </span>-dispdev<span class="w"> </span>text<span class="w"> </span>-e<span class="w"> </span>../system_build/psfgen.tcl<span class="w"> </span>-args<span class="w"> </span><span class="nv">$filename</span><span class="w"> </span>
-</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">filename</span><span class="si">}</span><span class="s2"> has been modeled succefffully!&quot;</span>
-</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">    </span><span class="nb">cd</span><span class="w"> </span>..
-</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="k">done</span>
-</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>
-</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="c1"># this is for test</span>
-</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>
-</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="c1"># filename=&quot;CDI1&quot;</span>
-</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="c1"># python residuetype_LP.py &quot;$(pwd)&quot; $filename</span>
-</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="c1"># cd $filename</span>
-</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="c1"># vmd -dispdev text -e ../system_build/psfgen.tcl -args $filename</span>
-</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="c1"># echo &quot;${filename} has been modeled succeddfully!&quot;</span>
-</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="c1"># cd ..</span>
-</span></code></pre></div>
-<h2 id="3">3. 用法<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
-<ul>
-<li>命令行进入目录<code>addatomname</code>，将准备好的<code>pre-mol2</code>文件直接放置在<code>addatomname</code>文件夹下，调用<code>addatomname.sh</code>生成包含所有处理后的<code>mol2</code>的文件夹<code>mol2_re</code></li>
-<li>将<code>mol2_re</code>中的<code>mol2</code>文件拷贝到<code>Batch_Modeling</code>文件夹底下</li>
-<li>进入<code>Batch_Modeling</code>目录</li>
-<li>调用 <code>ffgen.sh</code>脚本生成力场文件，会在主文件夹下生成一些列的力场文件夹（虽然有点乱，懒得改了），每个文件夹的名字是对应的<code>mol2</code>文件的名字</li>
-<li>调用<code>check.py</code>检查是否正常生成力场，并修正错误</li>
-<li>调用<code>vmdmodel.sh</code>建模，建立的模型会保存到力场文件的同一个文件夹底下</li>
-<li>批量提交到集群进行分子动力学模拟</li>
-</ul>
-<h2 id="4">4. 一些解释与常见错误<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
-<h3 id="41">4.1 关于预处理<a class="headerlink" href="#41" title="Permanent link">&para;</a></h3>
-<p>在上传小分子文件时，由于最开始设计小分子的过程中并不会直接生成<code>mol2</code>文件，最终上传的文件应该是经过<code>openbabel</code>等工具转化的，因此氢原子（有时候其他原子也存在）的编号（<code>Aton Name</code>），只能识别出元素类型，并没有元素类型后的数字来对应的识别出每一个原子；但是上传<code>cgenff</code>后，生成的小分子<code>rtf</code>、<code>prm</code>文件中会给这些原来没有数字编号的原子名进行编号，而生成的导致建模的时候并不能与生成的<code>pdb</code>文件原子进行对应，导致建模失败。</p>
-<p>简单来说，出现了含有坐标的文件中的原子名和含有拓扑信息和力场参数信息的文件中不行形成一一对应，一张老图说明关系：</p>
-<p>需要注意的是，<code>openbabel</code>的参数<code>-p</code>会使得原来具有数字编号的原子名信息丢失，因此需要用检查文本文档的方式，利用<code>python</code>脚本添加原子编号，最后将含有正确电荷信息与原子编号的<code>pdb</code>文件转化为<code>mol2</code>文件</p>
-<p><img alt="MD_files" src="https://github.com/AIB001/NAMD/assets/141569168/e449f683-c77f-48b8-bc98-11c2fc3ab161" /></p>
-<h3 id="42-resi-type">4.2 残基类型（RESI TYPE）说明<a class="headerlink" href="#42-resi-type" title="Permanent link">&para;</a></h3>
-<p><code>cgenff</code>生成的<code>rtf</code>文件与<code>pdb</code>文件中的残基类型不能对应，<code>pdb</code>中的残基名是<code>UNK</code>，而<code>rtf</code>中的残基名是输入的文件名</p>
-<h3 id="43">4.3 建模中加水的问题<a class="headerlink" href="#43" title="Permanent link">&para;</a></h3>
-<p>在建模过程中加入出现了对体系加入了过多的水，原因是在执行<code>guesscoord</code>命令的时候，由于找不到对应的拓扑信息或者一些玄学的原因（比如很多时候换一台机器建模？），一些原子的坐标会被guess到 <span class="arithmatex">\((0.000\ ,0.000\ ,0.000)\)</span>的坐标原点，导致体系扩大，对应的加入了过多的水，具体信息可以参考建模时候输出的日志信息来判断</p>
-<p>需要的脚本可以在这里找到：https://github.com/AIB001/AIB001.github.io/edit/main/My-Biophysics-Journey/Molecular-Dynamic/scripts/batch_modeling</p>
+<h1 id="thz1-nano-drug-delivery">THZ1 Nano-Drug Delivery<a class="headerlink" href="#thz1-nano-drug-delivery" title="Permanent link">&para;</a></h1>
 
 
 
