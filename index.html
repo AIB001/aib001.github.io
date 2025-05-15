@@ -1446,6 +1446,12 @@
 
 <div class="entrance-container">
   <div class="stars"></div>
+  <div class="shooting-star">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
   <div class="entrance-content">
     <h1 class="entrance-title">Welcome to<br>AIB001's Universe</h1>
     <p class="entrance-subtitle">Research • Learning • Life</p>
@@ -1476,7 +1482,8 @@
   overflow: hidden;
 }
 
-/* 明显的星星/粒子效果 */
+
+/* 增强的星星/粒子效果 */
 .stars {
   position: absolute;
   top: 0;
@@ -1484,6 +1491,7 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
+  overflow: hidden;
 }
 
 .stars::before,
@@ -1499,56 +1507,183 @@
 
 .stars::before {
   box-shadow: 
-    5vw 5vh 1px 1px rgba(255, 255, 255, 0.5),
-    10vw 10vh 1px 1px rgba(255, 255, 255, 0.5),
-    15vw 15vh 1px 1px rgba(255, 255, 255, 0.5),
-    20vw 20vh 1px 1px rgba(255, 255, 255, 0.5),
-    25vw 25vh 1px 1px rgba(255, 255, 255, 0.5),
-    30vw 30vh 1px 1px rgba(255, 255, 255, 0.5),
-    35vw 35vh 1px 1px rgba(255, 255, 255, 0.5),
-    40vw 40vh 1px 1px rgba(255, 255, 255, 0.5),
-    45vw 45vh 1px 1px rgba(255, 255, 255, 0.5),
-    50vw 50vh 1px 1px rgba(255, 255, 255, 0.5),
-    55vw 55vh 1px 1px rgba(255, 255, 255, 0.5),
+    5vw 5vh 1px 0.8px rgba(255, 255, 255, 0.8),
+    10vw 10vh 1px 1px rgba(255, 255, 255, 0.7),
+    15vw 15vh 2px 1px rgba(255, 255, 255, 0.6),
+    20vw 20vh 1px 1.2px rgba(255, 255, 255, 0.9),
+    25vw 25vh 1.5px 1px rgba(255, 255, 255, 0.5),
+    30vw 30vh 1px 1px rgba(255, 255, 255, 0.7),
+    35vw 35vh 1.5px 0.5px rgba(255, 255, 255, 0.6),
+    40vw 40vh 1px 1px rgba(255, 255, 255, 0.8),
+    45vw 45vh 1.2px 1.2px rgba(255, 255, 255, 0.5),
+    50vw 50vh 1px 1px rgba(255, 255, 255, 0.9),
+    55vw 55vh 2px 0.8px rgba(255, 255, 255, 0.7),
     60vw 60vh 1px 1px rgba(255, 255, 255, 0.5),
-    65vw 65vh 1px 1px rgba(255, 255, 255, 0.5),
-    70vw 70vh 1px 1px rgba(255, 255, 255, 0.5),
-    75vw 75vh 1px 1px rgba(255, 255, 255, 0.5),
-    80vw 80vh 1px 1px rgba(255, 255, 255, 0.5),
-    85vw 85vh 1px 1px rgba(255, 255, 255, 0.5),
-    90vw 90vh 1px 1px rgba(255, 255, 255, 0.5),
-    95vw 95vh 1px 1px rgba(255, 255, 255, 0.5);
-  animation: blinkStars 8s linear infinite;
+    65vw 65vh 1.5px 1px rgba(255, 255, 255, 0.8),
+    70vw 70vh 1px 1.2px rgba(255, 255, 255, 0.6),
+    75vw 75vh 1.2px 1px rgba(255, 255, 255, 0.9),
+    80vw 80vh 1px 0.8px rgba(255, 255, 255, 0.7),
+    85vw 85vh 2px 1px rgba(255, 255, 255, 0.6),
+    90vw 90vh 1px 1.2px rgba(255, 255, 255, 0.5),
+    95vw 95vh 1.5px 0.5px rgba(255, 255, 255, 0.8);
+  animation: blinkStars 5s linear infinite;
 }
 
 .stars::after {
   box-shadow: 
-    8vw 8vh 1px 1px rgba(255, 255, 255, 0.5),
-    13vw 13vh 1px 1px rgba(255, 255, 255, 0.5),
-    18vw 18vh 1px 1px rgba(255, 255, 255, 0.5),
-    23vw 23vh 1px 1px rgba(255, 255, 255, 0.5),
-    28vw 28vh 1px 1px rgba(255, 255, 255, 0.5),
-    33vw 33vh 1px 1px rgba(255, 255, 255, 0.5),
-    38vw 38vh 1px 1px rgba(255, 255, 255, 0.5),
-    43vw 43vh 1px 1px rgba(255, 255, 255, 0.5),
-    48vw 48vh 1px 1px rgba(255, 255, 255, 0.5),
-    53vw 53vh 1px 1px rgba(255, 255, 255, 0.5),
-    58vw 58vh 1px 1px rgba(255, 255, 255, 0.5),
-    63vw 63vh 1px 1px rgba(255, 255, 255, 0.5),
-    68vw 68vh 1px 1px rgba(255, 255, 255, 0.5),
-    73vw 73vh 1px 1px rgba(255, 255, 255, 0.5),
-    78vw 78vh 1px 1px rgba(255, 255, 255, 0.5),
-    83vw 83vh 1px 1px rgba(255, 255, 255, 0.5),
-    88vw 88vh 1px 1px rgba(255, 255, 255, 0.5),
-    93vw 93vh 1px 1px rgba(255, 255, 255, 0.5),
-    98vw 98vh 1px 1px rgba(255, 255, 255, 0.5);
-  animation: blinkStars 8s linear 4s infinite;
+    8vw 8vh 1.2px 1px rgba(255, 255, 255, 0.7),
+    13vw 13vh 1px 0.8px rgba(255, 255, 255, 0.6),
+    18vw 18vh 1.5px 1px rgba(255, 255, 255, 0.9),
+    23vw 23vh 1px 1.2px rgba(255, 255, 255, 0.5),
+    28vw 28vh 2px 0.5px rgba(255, 255, 255, 0.8),
+    33vw 33vh 1px 1px rgba(255, 255, 255, 0.7),
+    38vw 38vh 1.5px 0.8px rgba(255, 255, 255, 0.6),
+    43vw 43vh 1px 1px rgba(255, 255, 255, 0.9),
+    48vw 48vh 1.2px 1.2px rgba(255, 255, 255, 0.5),
+    53vw 53vh 1px 0.5px rgba(255, 255, 255, 0.8),
+    58vw 58vh 2px 1px rgba(255, 255, 255, 0.7),
+    63vw 63vh 1px 0.8px rgba(255, 255, 255, 0.6),
+    68vw 68vh 1.5px 1px rgba(255, 255, 255, 0.9),
+    73vw 73vh 1px 1.2px rgba(255, 255, 255, 0.5),
+    78vw 78vh 1.2px 0.5px rgba(255, 255, 255, 0.8),
+    83vw 83vh 1px 1px rgba(255, 255, 255, 0.7),
+    88vw 88vh 2px 0.8px rgba(255, 255, 255, 0.6),
+    93vw 93vh 1px 1px rgba(255, 255, 255, 0.9),
+    98vw 98vh 1.5px 1.2px rgba(255, 255, 255, 0.7);
+  animation: blinkStars 7s linear 2s infinite;
 }
 
+/* 改进的闪烁动画，具有不同的不透明度 */
 @keyframes blinkStars {
-  0% { opacity: 0.5; }
-  50% { opacity: 1; }
-  100% { opacity: 0.5; }
+  0% { opacity: 0.4; }
+  25% { opacity: 1; }
+  50% { opacity: 0.6; }
+  75% { opacity: 0.9; }
+  100% { opacity: 0.4; }
+}
+
+/* 添加流星 */
+.shooting-star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.shooting-star span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
+              0 0 0 8px rgba(255, 255, 255, 0.1),
+              0 0 20px rgba(255, 255, 255, 1);
+  animation: shoot 3s linear infinite;
+}
+
+.shooting-star span::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 1px;
+  background: linear-gradient(90deg, #fff, transparent);
+}
+
+/* 具有不同动画的多个流星 */
+.shooting-star span:nth-child(1) {
+  top: 0;
+  right: 0;
+  left: initial;
+  animation: shoot1 5s linear infinite;
+  animation-delay: 0s;
+}
+
+.shooting-star span:nth-child(2) {
+  top: 0;
+  right: 80px;
+  left: initial;
+  animation: shoot2 8s linear infinite;
+  animation-delay: 3s;
+}
+
+.shooting-star span:nth-child(3) {
+  top: 80px;
+  right: 0px;
+  left: initial;
+  animation: shoot3 7s linear infinite;
+  animation-delay: 5s;
+}
+
+.shooting-star span:nth-child(4) {
+  top: 0;
+  right: 180px;
+  left: initial;
+  animation: shoot4 6s linear infinite;
+  animation-delay: 7s;
+}
+
+/* 具有不同轨迹的流星动画 */
+@keyframes shoot1 {
+  0% {
+    transform: rotate(315deg) translateX(0);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(315deg) translateX(-1000px);
+    opacity: 0;
+  }
+}
+
+@keyframes shoot2 {
+  0% {
+    transform: rotate(330deg) translateX(0);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(330deg) translateX(-1000px);
+    opacity: 0;
+  }
+}
+
+@keyframes shoot3 {
+  0% {
+    transform: rotate(345deg) translateX(0);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(345deg) translateX(-1000px);
+    opacity: 0;
+  }
+}
+
+@keyframes shoot4 {
+  0% {
+    transform: rotate(320deg) translateX(0);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(320deg) translateX(-1000px);
+    opacity: 0;
+  }
 }
 
 .entrance-content {
