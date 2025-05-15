@@ -145,66 +145,6 @@ body {
   border-left-color: rgba(255, 255, 255, 0.1);
 }
 
-/* COMPLETELY REVISED PROFILE STYLING */
-.compact-profile {
-  display: flex;
-  position: relative;
-  margin: 2rem 0 3rem;
-  align-items: center;
-}
-
-.compact-profile-image {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  border: 3px solid var(--md-primary-fg-color);
-  flex-shrink: 0;
-  position: relative;
-  top: 15px; /* Move image down */
-}
-
-.compact-profile-content {
-  flex: 1;
-  position: relative;
-  top: -15px; /* Move text up */
-}
-
-.compact-profile-content h2 {
-  margin-top: 0;
-  margin-bottom: 0.4rem;
-  border-bottom: none;
-  color: var(--md-primary-fg-color);
-  font-size: 1.8rem;
-  line-height: 1.2;
-}
-
-.compact-profile-content p {
-  margin-bottom: 0.6rem;
-  line-height: 1.4;
-}
-
-/* For mobile */
-@media screen and (max-width: 76.1875em) {
-  .compact-profile {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .compact-profile-image {
-    margin-right: 0;
-    margin-bottom: 1.5rem;
-    top: 0; /* Reset position on mobile */
-  }
-  
-  .compact-profile-content {
-    top: 0; /* Reset position on mobile */
-  }
-}
-
 /* Heading styles */
 .md-content h1 {
   font-size: 2.2rem;
@@ -466,17 +406,5 @@ html {
   
   .md-nav__item {
     margin: 6px 0;
-  }
-  
-  /* Fix compact profile on mobile */
-  .compact-profile {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .compact-profile-image {
-    margin-right: 0;
-    margin-bottom: 1rem;
   }
 }
