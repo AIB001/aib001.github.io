@@ -16,19 +16,20 @@
   <div class="feature-card">
     <h3 class="feature-title">Small Molecules</h3>
     <p>Investigating small molecule interactions with proteins and their applications in drug development.</p>
-    <a href="research/small-molecules/LigTraj_Software_Database/">Learn more →</a>
+    <a href="/research/small-molecules/LigTraj_Software_Database/">Learn more →</a>
   </div>
 
   <div class="feature-card">
     <h3 class="feature-title">Condensates</h3>
     <p>Studying biomolecular condensate formation, regulation, and function in cellular environments.</p>
-    <a href="research/condensates/FUS_PLD_Droplet/">Learn more →</a>
+    <a href="/research/condensates/FUS_PLD_Droplet/">Learn more →</a>
   </div>
+
 
   <div class="feature-card">
     <h3 class="feature-title">Other Research</h3>
     <p>Exploring computational biology, biophysics, and developing new methodologies.</p>
-    <a href="research/others/collaborative/">Learn more →</a>
+    <a href="/research/others/collaborative/">Learn more →</a>
   </div>
 </div>
 
