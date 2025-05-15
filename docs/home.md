@@ -4,7 +4,7 @@
   <img src="/img/profile.png" alt="Profile" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 2rem; border: 3px solid #7e57c2; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); object-fit: cover; flex-shrink: 0;">
   <div style="padding-top: 0.5rem;">
     <h2 style="margin-top: 0; margin-bottom: 0.8rem; color: #7e57c2; border-bottom: none; font-size: 1.8rem;">A.I.B. (Zhaoqi Shi)</h2>
-    <p style="margin-bottom: 0.7rem;">Double major in Biological Science and Physics; Serving as RA in Institute of Quantitative Biology, Zhejiang University, instructed by Prof. Ruhong Zhou. And I'm a Ph.D. candidate in Theoretical Chemistry Institute, University of Wisconsin-Madison.</p>
+    <p style="margin-bottom: 0.7rem;">Double major in Biological Science and Physics; Serving as RA in Institute of Quantitative Biology, Zhejiang University (ZJU). I'm instructed by Prof. Rui Shi and Prof. Ruhong Zhou in ZJU. And I'm a Ph.D. candidate in Theoretical Chemistry Institute, University of Wisconsin-Madison.</p>
     <p style="margin-bottom: 0;">Researcher in molecular biophysics, focusing on molecular dynamic simulation, protein structure-function relationships and biomolecular condensates.</p>
   </div>
 </div>
