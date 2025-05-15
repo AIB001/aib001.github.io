@@ -411,6 +411,7 @@ html {
 
 
 /* 生活页面 - 悬浮卡片布局 */
+/* 生活页面 - 悬浮卡片布局 */
 .life-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -419,21 +420,32 @@ html {
   perspective: 1000px;
 }
 
-.life-card {
+/* Card link wrapper */
+.life-card-link {
+  display: block;
+  text-decoration: none !important;
+  color: inherit;
   height: 320px;
   position: relative;
   animation: cardFloat 6s ease-in-out infinite;
   animation-delay: calc(var(--animation-order, 0) * 0.7s);
   transform-style: preserve-3d;
   transform: translateZ(0);
+  cursor: pointer;
 }
 
-.life-card:nth-child(1) { --animation-order: 1; }
-.life-card:nth-child(2) { --animation-order: 2; }
-.life-card:nth-child(3) { --animation-order: 3; }
-.life-card:nth-child(4) { --animation-order: 4; }
-.life-card:nth-child(5) { --animation-order: 5; }
-.life-card:nth-child(6) { --animation-order: 6; }
+.life-card-link:nth-child(1) { --animation-order: 1; }
+.life-card-link:nth-child(2) { --animation-order: 2; }
+.life-card-link:nth-child(3) { --animation-order: 3; }
+.life-card-link:nth-child(4) { --animation-order: 4; }
+.life-card-link:nth-child(5) { --animation-order: 5; }
+.life-card-link:nth-child(6) { --animation-order: 6; }
+
+.life-card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
 
 @keyframes cardFloat {
   0%, 100% { transform: translateY(0) rotate(0deg); }
@@ -452,7 +464,7 @@ html {
   border-radius: 16px;
 }
 
-.life-card:hover .life-card-inner {
+.life-card-link:hover .life-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -480,7 +492,7 @@ html {
   transition: transform 0.5s ease;
 }
 
-.life-card:hover .life-card-front img {
+.life-card-link:hover .life-card-front img {
   transform: scale(1.05);
 }
 
@@ -535,6 +547,27 @@ html {
   font-size: 0.95rem;
   line-height: 1.6;
   opacity: 0.9;
+}
+
+/* Read More button */
+.life-card-readmore {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 6px 16px;
+  background: var(--md-primary-fg-color);
+  color: white !important;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transform: translateY(0);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.life-card-link:hover .life-card-readmore {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
 /* Hover effects - pulse border on back card */
@@ -600,13 +633,19 @@ html {
   opacity: 0.7;
 }
 
+/* Card click effect */
+.life-card-link:active .life-card {
+  transform: scale(0.98);
+  transition: transform 0.1s;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .life-grid {
     gap: 20px;
   }
   
-  .life-card {
+  .life-card-link {
     height: 280px;
   }
   
@@ -630,6 +669,6 @@ html {
   transition: opacity 0.3s ease;
 }
 
-.life-card:hover .life-card-inner::after {
+.life-card-link:hover .life-card-inner::after {
   opacity: 1;
 }

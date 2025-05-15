@@ -408,3 +408,228 @@ html {
     margin: 6px 0;
   }
 }
+
+
+/* 生活页面 - 悬浮卡片布局 */
+.life-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+  perspective: 1000px;
+}
+
+.life-card {
+  height: 320px;
+  position: relative;
+  animation: cardFloat 6s ease-in-out infinite;
+  animation-delay: calc(var(--animation-order, 0) * 0.7s);
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+}
+
+.life-card:nth-child(1) { --animation-order: 1; }
+.life-card:nth-child(2) { --animation-order: 2; }
+.life-card:nth-child(3) { --animation-order: 3; }
+.life-card:nth-child(4) { --animation-order: 4; }
+.life-card:nth-child(5) { --animation-order: 5; }
+.life-card:nth-child(6) { --animation-order: 6; }
+
+@keyframes cardFloat {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-10px) rotate(1deg); }
+  75% { transform: translateY(10px) rotate(-1deg); }
+}
+
+.life-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+}
+
+.life-card:hover .life-card-inner {
+  transform: rotateY(180deg);
+}
+
+.life-card-front, .life-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.life-card-front {
+  background-color: #f8f9fa;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.life-card-front img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.life-card:hover .life-card-front img {
+  transform: scale(1.05);
+}
+
+.life-card-title {
+  background: linear-gradient(45deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  color: white;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.life-card-back {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #333;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+[data-md-color-scheme="slate"] .life-card-back {
+  background: linear-gradient(135deg, #2c3e50 0%, #4c5c68 100%);
+  color: white;
+}
+
+[data-md-color-scheme="slate"] .life-card-front {
+  background-color: #2d3748;
+  color: white;
+}
+
+.life-card-back h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  background: linear-gradient(45deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+.life-card-back p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Hover effects - pulse border on back card */
+.life-card-back::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 16px;
+  padding: 4px;
+  background: linear-gradient(45deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* Quote styling */
+.life-quote {
+  margin: 60px 0;
+  padding: 30px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.life-quote blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--md-primary-fg-color);
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 40px;
+}
+
+.life-quote blockquote::before,
+.life-quote blockquote::after {
+  content: """;
+  font-size: 4rem;
+  color: var(--md-primary-fg-color);
+  opacity: 0.2;
+  position: absolute;
+}
+
+.life-quote blockquote::before {
+  top: -20px;
+  left: 0;
+}
+
+.life-quote blockquote::after {
+  content: """;
+  bottom: -60px;
+  right: 0;
+}
+
+.life-quote cite {
+  display: block;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-style: normal;
+  opacity: 0.7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .life-grid {
+    gap: 20px;
+  }
+  
+  .life-card {
+    height: 280px;
+  }
+  
+  .life-quote blockquote {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+  }
+}
+
+/* Add more life-card hover effects */
+.life-card-inner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  box-shadow: 0 5px 50px rgba(var(--md-primary-fg-color--rgb), 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.life-card:hover .life-card-inner::after {
+  opacity: 1;
+}
